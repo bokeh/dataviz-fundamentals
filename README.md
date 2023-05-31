@@ -19,23 +19,23 @@ To run these notebooks locally, follow these steps:
 
 1. Clone the repository:
 
-    git clone https://github.com/bokeh/dataviz-fundamentals.git
+        git clone https://github.com/bokeh/dataviz-fundamentals.git
 
 2. Navigate to the project directory via the terminal or command prompt.
 
 3. Create a new conda environment and install the required dependencies:
 
-    conda env create -n <name> -f environment.yml
+        conda env create -n <name> -f environment.yml
 
 replacing `<name>` with your preferred environment name.
 
 4. Activate the new environment:
 
-    conda activate <name>
+        conda activate <name>
 
 5. Open Jupyter notebook via anaconda navigator or via the command line:
 
-    jupyter notebook
+        jupyter notebook
 
 6. Open the desired notebook in your web browser and run the cells.
 
