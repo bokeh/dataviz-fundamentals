@@ -4,16 +4,12 @@
 
 ## Project description
 
-This repository hosts Bokeh equivalents for various plots from ["Fundamentals of Data Visualization" by Claus O. Wilke](https://clauswilke.com/dataviz/). It provides a collection of interactive data visualizations implemented using the Bokeh library.
+This repository hosts Bokeh equivalents for various plots from [*Fundamentals of Data Visualization* by Claus O. Wilke](https://clauswilke.com/dataviz/). It provides a collection of interactive data visualizations implemented using the Bokeh library.
 
-## Table of Contents (WIP)
+## Table of contents (WIP)
 
-- Index - Contains a link to all of the available plots.
-- Notebook 1: [Plotting Bar Charts](notebooks/bar_charts.ipynb) - Demonstrates how to recreate the bar charts using Bokeh.
-- Notebook 2: [Scatter Plots](notebooks/scatter_plots.ipynb) - Shows how to generate the scatter plots with Bokeh.
-- Notebook 3: [Line Plots](notebooks/line_plots.ipynb) - Illustrates how to recreate the line plots using Bokeh.
 
-## Local Setup
+## Local setup
 
 To run these notebooks locally, follow these steps:
 
@@ -50,4 +46,4 @@ Contributions are welcome! If you would like to contribute to this project, plea
 
 ## License & Code of Conduct
 
-This project is licensed under the [BSD 3-Clause License](https://github.com/bokeh/bokeh/blob/branch-3.1/LICENSE.txt). By contributing to this project, you agree to abide by the [Bokeh Code of Conduct](https://github.com/bokeh/bokeh/blob/branch-3.1/docs/CODE_OF_CONDUCT.md).
+This project is licensed under the [MIT](https://github.com/clauswilke/dviz.supp/blob/master/LICENSE) and [BSD 3-Clause](https://github.com/bokeh/bokeh/blob/branch-3.1/LICENSE.txt) licence. By contributing to this project, you agree to abide by the [Bokeh Code of Conduct](https://github.com/bokeh/bokeh/blob/branch-3.1/docs/CODE_OF_CONDUCT.md).
