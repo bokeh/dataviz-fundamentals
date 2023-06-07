@@ -3,7 +3,7 @@
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Introduction</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>bar_plots</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 
 
@@ -14580,13 +14580,23 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Introduction">Introduction<a class="anchor-link" href="#Introduction">&#182;</a></h3><p>This page demonstrates how to recreate the example plot that was used in the blog introduction.</p>
-<p>There are two ways in which you can display the visualisations created using Bokeh. By default, Bokeh displays the plots on the web browser but you can display your plots inline on your jupyter notebook by importing and running <code>output_notebook</code> before showing the plots.</p>
+<h2 id="Bar-plots">Bar plots<a class="anchor-link" href="#Bar-plots">&#182;</a></h2>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>This page demonstrates how to recreate the vertical and horizontal bar plots found in the book, <a href="https://clauswilke.com/dataviz/visualizing-amounts.html#bar-plots">here</a></p>
 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -14594,9 +14604,28 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">bokeh.io</span> <span class="kn">import</span> <span class="n">output_notebook</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># import the relevant libraries</span>
+<span class="kn">from</span> <span class="nn">bokeh.plotting</span> <span class="kn">import</span> <span class="n">figure</span><span class="p">,</span> <span class="n">show</span>
+<span class="kn">from</span> <span class="nn">bokeh.models</span> <span class="kn">import</span> <span class="n">FactorRange</span>
+<span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">from</span> <span class="nn">bokeh.io</span> <span class="kn">import</span> <span class="n">output_notebook</span>
+</pre></div>
 
-<span class="n">output_notebook</span><span class="p">()</span>
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">output_notebook</span><span class="p">()</span>
 </pre></div>
 
      </div>
@@ -14621,7 +14650,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
 <div class="bk-root">
         <a href="https://bokeh.org" target="_blank" class="bk-logo bk-logo-small bk-logo-notebook"></a>
-        <span id="1001">Loading BokehJS ...</span>
+        <span id="1002">Loading BokehJS ...</span>
     </div>
 
 </div>
@@ -14637,9 +14666,9 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 
 
-<div id="674dc831-6158-43fa-87db-347d3bc1df36" class="jp-RenderedJavaScript jp-OutputArea-output " data-mime-type="application/javascript">
+<div id="fcdba8cd-3c48-4513-b0e1-69f727dcc725" class="jp-RenderedJavaScript jp-OutputArea-output " data-mime-type="application/javascript">
 <script type="text/javascript">
-var element = document.getElementById('674dc831-6158-43fa-87db-347d3bc1df36');
+var element = document.getElementById('fcdba8cd-3c48-4513-b0e1-69f727dcc725');
 (function(root) {
   function now() {
     return new Date();
@@ -14797,7 +14826,7 @@ const JS_MIME_TYPE = 'application/javascript';
      "</div>"}};
 
   function display_loaded() {
-    const el = document.getElementById("1001");
+    const el = document.getElementById("1002");
     if (el != null) {
       el.textContent = "BokehJS is loading...";
     }
@@ -14903,7 +14932,7 @@ if (force === true) {
       console.log("Bokeh: BokehJS failed to load within specified timeout.");
       root._bokeh_failed_load = true;
     } else if (force !== true) {
-      const cell = $(document.getElementById("1001")).parents('.cell').data().cell;
+      const cell = $(document.getElementById("1002")).parents('.cell').data().cell;
       cell.output_area.append_execute_result(NB_LOAD_WARNING)
     }
   }
@@ -14932,207 +14961,20 @@ if (force === true) {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># import the relevant libraries</span>
-<span class="kn">from</span> <span class="nn">bokeh.plotting</span> <span class="kn">import</span> <span class="n">figure</span><span class="p">,</span> <span class="n">show</span>
-<span class="kn">from</span> <span class="nn">bokeh.models</span> <span class="kn">import</span> <span class="n">FactorRange</span>
-<span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span>
-<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">file</span> <span class="o">=</span> <span class="s2">"../data/ncdc_normals.tsv"</span>
-<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_table</span><span class="p">(</span><span class="n">file</span><span class="p">)</span>
-
-<span class="c1"># Create new dataframe for only the four locations</span>
-<span class="n">df</span><span class="p">[</span><span class="s2">"location"</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">"station_id"</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">({</span>
-    <span class="s2">"USW00014819"</span><span class="p">:</span> <span class="s2">"Chicago"</span><span class="p">,</span>
-    <span class="s2">"USW00093107"</span><span class="p">:</span> <span class="s2">"San Diego"</span><span class="p">,</span>
-    <span class="s2">"USW00012918"</span><span class="p">:</span> <span class="s2">"Houston"</span><span class="p">,</span>
-    <span class="s2">"USC00042319"</span><span class="p">:</span> <span class="s2">"Death Valley"</span><span class="p">,</span>
-<span class="p">})</span>
-<span class="n">df</span><span class="o">.</span><span class="n">dropna</span><span class="p">(</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-
-<span class="c1"># Select only the relevant columns</span>
-<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="p">[[</span><span class="s2">"month"</span><span class="p">,</span> <span class="s2">"location"</span><span class="p">,</span> <span class="s2">"temperature"</span><span class="p">]]</span>
-<span class="n">df</span><span class="o">.</span><span class="n">sort_values</span><span class="p">([</span><span class="s2">"month"</span><span class="p">],</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-<span class="n">df</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-
-<span class="c1"># Get month name</span>
-<span class="n">get_month_name</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">x</span><span class="p">),</span> <span class="nb">format</span><span class="o">=</span><span class="s1">'%m'</span><span class="p">)</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s1">'%b'</span><span class="p">)</span>
-
-<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s2">"month"</span><span class="p">,</span><span class="s2">"location"</span><span class="p">])</span><span class="o">.</span><span class="n">temperature</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span><span class="o">.</span><span class="n">unstack</span><span class="p">()</span>
-<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
-<span class="n">df</span><span class="p">[</span><span class="s2">"month"</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">"month"</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">get_month_name</span><span class="p">)</span>
-
-<span class="n">df</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">file</span> <span class="o">=</span> <span class="s2">"../data/movies.csv"</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">file</span><span class="p">)</span>
+<span class="n">df</span><span class="p">[</span><span class="s2">"Title"</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">"Title"</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">":"</span><span class="p">)[</span><span class="mi">0</span><span class="p">])</span>
+<span class="n">df</span><span class="p">[</span><span class="s2">"Weekend gross"</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">"Weekend gross"</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span>
+    <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">"$"</span><span class="p">)[</span><span class="mi">1</span><span class="p">]))</span> <span class="o">/</span> <span class="mi">1_000_000</span>
+<span class="p">)</span>
 </pre></div>
 
      </div>
 </div>
 </div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[3]:</div>
-
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>location</th>
-      <th>month</th>
-      <th>Chicago</th>
-      <th>Death Valley</th>
-      <th>Houston</th>
-      <th>San Diego</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>Jan</td>
-      <td>24.848387</td>
-      <td>53.451613</td>
-      <td>54.041935</td>
-      <td>55.845161</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>Feb</td>
-      <td>28.906897</td>
-      <td>59.944828</td>
-      <td>57.341379</td>
-      <td>56.517241</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>Mar</td>
-      <td>38.848387</td>
-      <td>68.448387</td>
-      <td>63.338710</td>
-      <td>57.351613</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>Apr</td>
-      <td>50.450000</td>
-      <td>76.293333</td>
-      <td>69.856667</td>
-      <td>59.893333</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>May</td>
-      <td>60.900000</td>
-      <td>86.606452</td>
-      <td>77.051613</td>
-      <td>63.200000</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>Jun</td>
-      <td>71.006667</td>
-      <td>95.546667</td>
-      <td>81.996667</td>
-      <td>66.543333</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>Jul</td>
-      <td>75.845161</td>
-      <td>102.241935</td>
-      <td>83.796774</td>
-      <td>71.048387</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>Aug</td>
-      <td>74.148387</td>
-      <td>100.193548</td>
-      <td>84.145161</td>
-      <td>72.603226</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>Sep</td>
-      <td>66.403333</td>
-      <td>91.053333</td>
-      <td>80.060000</td>
-      <td>70.746667</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>Oct</td>
-      <td>54.251613</td>
-      <td>77.148387</td>
-      <td>72.148387</td>
-      <td>65.912903</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>Nov</td>
-      <td>41.550000</td>
-      <td>62.603333</td>
-      <td>63.150000</td>
-      <td>60.003333</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>Dec</td>
-      <td>29.000000</td>
-      <td>51.748387</td>
-      <td>55.596774</td>
-      <td>55.200000</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-
 </div>
 
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15143,52 +14985,18 @@ if (force === true) {
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># plot the new dataframe</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># plot a vertical bar</span>
+<span class="n">p1</span> <span class="o">=</span> <span class="n">figure</span><span class="p">(</span>
+    <span class="n">x_range</span><span class="o">=</span><span class="n">FactorRange</span><span class="p">(</span><span class="n">factors</span><span class="o">=</span><span class="n">df</span><span class="o">.</span><span class="n">Title</span><span class="p">),</span>
+    <span class="n">height</span><span class="o">=</span><span class="mi">300</span><span class="p">,</span>
+    <span class="n">width</span><span class="o">=</span><span class="mi">600</span><span class="p">,</span>
+    <span class="n">title</span><span class="o">=</span><span class="s2">"Movie gross"</span><span class="p">,</span>
+    <span class="n">y_axis_label</span><span class="o">=</span><span class="s2">"weekend gross (million USD)"</span><span class="p">,</span>
+<span class="p">)</span>
 
-<span class="n">p</span> <span class="o">=</span> <span class="n">figure</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s2">"Daily temperature normals for four locations in the US"</span><span class="p">,</span>
-           <span class="n">height</span><span class="o">=</span><span class="mi">350</span><span class="p">,</span>
-           <span class="n">width</span><span class="o">=</span><span class="mi">400</span><span class="p">,</span>
-           <span class="n">toolbar_location</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
-           <span class="n">x_range</span><span class="o">=</span><span class="n">FactorRange</span><span class="p">(</span><span class="n">factors</span><span class="o">=</span><span class="n">df</span><span class="o">.</span><span class="n">month</span><span class="p">),</span>
-           <span class="n">x_axis_label</span> <span class="o">=</span> <span class="s2">"month"</span><span class="p">,</span>
-           <span class="n">y_axis_label</span> <span class="o">=</span> <span class="s2">"temperature (F)"</span>
-          <span class="p">)</span>
-
-<span class="n">p</span><span class="o">.</span><span class="n">line</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s2">"month"</span><span class="p">,</span>
-      <span class="n">y</span><span class="o">=</span><span class="s2">"Death Valley"</span><span class="p">,</span>
-       <span class="n">legend_label</span><span class="o">=</span><span class="s2">"Death Valley"</span><span class="p">,</span>
-       <span class="n">color</span><span class="o">=</span><span class="s2">"#FF9933"</span><span class="p">,</span>
-       <span class="n">line_width</span><span class="o">=</span><span class="mf">2.5</span><span class="p">,</span>
-       <span class="n">source</span><span class="o">=</span><span class="n">df</span>
-      <span class="p">)</span>
-
-<span class="n">p</span><span class="o">.</span><span class="n">line</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s2">"month"</span><span class="p">,</span>
-      <span class="n">y</span><span class="o">=</span><span class="s2">"Houston"</span><span class="p">,</span>
-       <span class="n">legend_label</span><span class="o">=</span><span class="s2">"Houston"</span><span class="p">,</span>
-       <span class="n">color</span><span class="o">=</span><span class="s2">"#3399FF"</span><span class="p">,</span>
-       <span class="n">line_width</span><span class="o">=</span><span class="mf">2.5</span><span class="p">,</span>
-       <span class="n">source</span><span class="o">=</span><span class="n">df</span>
-      <span class="p">)</span>
-
-<span class="n">p</span><span class="o">.</span><span class="n">line</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s2">"month"</span><span class="p">,</span>
-      <span class="n">y</span><span class="o">=</span><span class="s2">"San Diego"</span><span class="p">,</span>
-       <span class="n">legend_label</span><span class="o">=</span><span class="s2">"San Diego"</span><span class="p">,</span>
-       <span class="n">color</span><span class="o">=</span><span class="s2">"#00994C"</span><span class="p">,</span>
-       <span class="n">line_width</span><span class="o">=</span><span class="mf">2.5</span><span class="p">,</span>
-       <span class="n">source</span><span class="o">=</span><span class="n">df</span>
-      <span class="p">)</span>
-
-<span class="n">p</span><span class="o">.</span><span class="n">line</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s2">"month"</span><span class="p">,</span>
-      <span class="n">y</span><span class="o">=</span><span class="s2">"Chicago"</span><span class="p">,</span>
-       <span class="n">legend_label</span><span class="o">=</span><span class="s2">"Chicago"</span><span class="p">,</span>
-       <span class="n">color</span><span class="o">=</span><span class="s2">"#CC00CC"</span><span class="p">,</span>
-       <span class="n">line_width</span><span class="o">=</span><span class="mf">2.5</span><span class="p">,</span>
-       <span class="n">source</span><span class="o">=</span><span class="n">df</span>
-      <span class="p">)</span>
-
-<span class="n">p</span><span class="o">.</span><span class="n">legend</span><span class="o">.</span><span class="n">location</span> <span class="o">=</span> <span class="s2">"bottom"</span>
-
-<span class="n">show</span><span class="p">(</span><span class="n">p</span><span class="p">)</span>
+<span class="n">p1</span><span class="o">.</span><span class="n">vbar</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s2">"Title"</span><span class="p">,</span> <span class="n">top</span><span class="o">=</span><span class="s2">"Weekend gross"</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mf">0.7</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s2">"#66B2FF"</span><span class="p">,</span> <span class="n">source</span><span class="o">=</span><span class="n">df</span><span class="p">)</span>
+<span class="n">p1</span><span class="o">.</span><span class="n">y_range</span><span class="o">.</span><span class="n">start</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">show</span><span class="p">(</span><span class="n">p1</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -15212,7 +15020,7 @@ if (force === true) {
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
 
-  <div class="bk-root" id="e13b2148-a4cf-4368-940f-075939211441" data-root-id="1004"></div>
+  <div class="bk-root" id="f4af6dff-113a-42b5-be54-45f566189557" data-root-id="1004"></div>
 
 </div>
 
@@ -15227,13 +15035,109 @@ if (force === true) {
 
 
 
-<div id="674dfd85-255c-47cc-8360-6cdde768b3e2" class="jp-RenderedJavaScript jp-OutputArea-output " data-mime-type="application/javascript">
+<div id="6730d379-bf62-4461-a246-676f17f5d2a9" class="jp-RenderedJavaScript jp-OutputArea-output " data-mime-type="application/javascript">
 <script type="text/javascript">
-var element = document.getElementById('674dfd85-255c-47cc-8360-6cdde768b3e2');
+var element = document.getElementById('6730d379-bf62-4461-a246-676f17f5d2a9');
 (function(root) {
   function embed_document(root) {
-  const docs_json = {"eb01dffc-d732-4488-aae9-a2b3e6014773":{"defs":[],"roots":{"references":[{"attributes":{"below":[{"id":"1014"}],"center":[{"id":"1016"},{"id":"1020"},{"id":"1052"}],"height":350,"left":[{"id":"1017"}],"renderers":[{"id":"1040"},{"id":"1059"},{"id":"1079"},{"id":"1101"}],"title":{"id":"1005"},"toolbar":{"id":"1028"},"toolbar_location":null,"width":400,"x_range":{"id":"1003"},"x_scale":{"id":"1010"},"y_range":{"id":"1008"},"y_scale":{"id":"1012"}},"id":"1004","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"1024","type":"SaveTool"},{"attributes":{},"id":"1093","type":"Selection"},{"attributes":{},"id":"1049","type":"UnionRenderers"},{"attributes":{"label":{"value":"San Diego"},"renderers":[{"id":"1079"}]},"id":"1095","type":"LegendItem"},{"attributes":{"data":{"Chicago":{"__ndarray__":"Wf6S5S/ZOECnglZfKug8QCx/yfKXbENAmpmZmZk5SUA0MzMzM3NOQKDTBjptwFFA9nFhHxf2UkDJ8pcsf4lSQGoDnTbQmVBAoE0D2jQgS0BmZmZmZsZEQAAAAAAAAD1A","dtype":"float64","order":"little","shape":[12]},"Death Valley":{"__ndarray__":"Ouecc865SkACjz8c8PhNQP0ly1+yHFFAk18s+cUSU0CnAW0a0KZVQGPJL5b84ldA77333nuPWUCMMcYYYwxZQAOdNtBpw1ZAyfKXLH9JU0BtoNMGOk1PQGCy/CXL30lA","dtype":"float64","order":"little","shape":[12]},"Houston":{"__ndarray__":"ReJVJF4FS0AmuzZRsqtMQGuttdZaq09ABjptoNN2UUAD2jSgTUNTQDCW/GLJf1RAk+UvWf7yVEAppZRSSglVQKRwPQrXA1RAyfKXLH8JUkAzMzMzM5NPQIwxxhhjzEtA","dtype":"float64","order":"little","shape":[12]},"San Diego":{"__ndarray__":"7OPCPi7sS0BPIyz3NEJMQG0a0KYBrUxA8oslv1jyTUCamZmZmZlPQJNfLPnFolBAY4wxxhjDUUAGtGlAmyZSQDCW/GLJr1FAGtCmAW16UECg0wY6bQBOQJqZmZmZmUtA","dtype":"float64","order":"little","shape":[12]},"index":[0,1,2,3,4,5,6,7,8,9,10,11],"month":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]},"selected":{"id":"1050"},"selection_policy":{"id":"1049"}},"id":"1035","type":"ColumnDataSource"},{"attributes":{"source":{"id":"1074"}},"id":"1080","type":"CDSView"},{"attributes":{},"id":"1047","type":"CategoricalTickFormatter"},{"attributes":{"label":{"value":"Death Valley"},"renderers":[{"id":"1040"}]},"id":"1053","type":"LegendItem"},{"attributes":{},"id":"1050","type":"Selection"},{"attributes":{},"id":"1116","type":"UnionRenderers"},{"attributes":{"line_alpha":0.1,"line_color":"#CC00CC","line_width":2.5,"x":{"field":"month"},"y":{"field":"Chicago"}},"id":"1099","type":"Line"},{"attributes":{"factors":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]},"id":"1003","type":"FactorRange"},{"attributes":{"line_alpha":0.2,"line_color":"#FF9933","line_width":2.5,"x":{"field":"month"},"y":{"field":"Death Valley"}},"id":"1039","type":"Line"},{"attributes":{"line_color":"#FF9933","line_width":2.5,"x":{"field":"month"},"y":{"field":"Death Valley"}},"id":"1037","type":"Line"},{"attributes":{"line_alpha":0.1,"line_color":"#FF9933","line_width":2.5,"x":{"field":"month"},"y":{"field":"Death Valley"}},"id":"1038","type":"Line"},{"attributes":{},"id":"1045","type":"AllLabels"},{"attributes":{},"id":"1044","type":"BasicTickFormatter"},{"attributes":{},"id":"1021","type":"PanTool"},{"attributes":{},"id":"1071","type":"Selection"},{"attributes":{"overlay":{"id":"1027"}},"id":"1023","type":"BoxZoomTool"},{"attributes":{},"id":"1018","type":"BasicTicker"},{"attributes":{"coordinates":null,"group":null,"items":[{"id":"1053"},{"id":"1073"},{"id":"1095"},{"id":"1119"}],"location":"bottom"},"id":"1052","type":"Legend"},{"attributes":{"axis":{"id":"1017"},"coordinates":null,"dimension":1,"group":null,"ticker":null},"id":"1020","type":"Grid"},{"attributes":{"tools":[{"id":"1021"},{"id":"1022"},{"id":"1023"},{"id":"1024"},{"id":"1025"},{"id":"1026"}]},"id":"1028","type":"Toolbar"},{"attributes":{"axis":{"id":"1014"},"coordinates":null,"group":null,"ticker":null},"id":"1016","type":"Grid"},{"attributes":{"axis_label":"temperature (F)","coordinates":null,"formatter":{"id":"1044"},"group":null,"major_label_policy":{"id":"1045"},"ticker":{"id":"1018"}},"id":"1017","type":"LinearAxis"},{"attributes":{"coordinates":null,"data_source":{"id":"1054"},"glyph":{"id":"1056"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"1058"},"nonselection_glyph":{"id":"1057"},"view":{"id":"1060"}},"id":"1059","type":"GlyphRenderer"},{"attributes":{},"id":"1022","type":"WheelZoomTool"},{"attributes":{},"id":"1026","type":"HelpTool"},{"attributes":{},"id":"1015","type":"CategoricalTicker"},{"attributes":{},"id":"1070","type":"UnionRenderers"},{"attributes":{"coordinates":null,"group":null,"text":"Daily temperature normals for four locations in the US"},"id":"1005","type":"Title"},{"attributes":{},"id":"1010","type":"CategoricalScale"},{"attributes":{"axis_label":"month","coordinates":null,"formatter":{"id":"1047"},"group":null,"major_label_policy":{"id":"1048"},"ticker":{"id":"1015"}},"id":"1014","type":"CategoricalAxis"},{"attributes":{"source":{"id":"1054"}},"id":"1060","type":"CDSView"},{"attributes":{"line_alpha":0.2,"line_color":"#00994C","line_width":2.5,"x":{"field":"month"},"y":{"field":"San Diego"}},"id":"1078","type":"Line"},{"attributes":{},"id":"1008","type":"DataRange1d"},{"attributes":{"line_color":"#00994C","line_width":2.5,"x":{"field":"month"},"y":{"field":"San Diego"}},"id":"1076","type":"Line"},{"attributes":{"line_alpha":0.1,"line_color":"#00994C","line_width":2.5,"x":{"field":"month"},"y":{"field":"San Diego"}},"id":"1077","type":"Line"},{"attributes":{"label":{"value":"Houston"},"renderers":[{"id":"1059"}]},"id":"1073","type":"LegendItem"},{"attributes":{"coordinates":null,"data_source":{"id":"1096"},"glyph":{"id":"1098"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"1100"},"nonselection_glyph":{"id":"1099"},"view":{"id":"1102"}},"id":"1101","type":"GlyphRenderer"},{"attributes":{"label":{"value":"Chicago"},"renderers":[{"id":"1101"}]},"id":"1119","type":"LegendItem"},{"attributes":{},"id":"1117","type":"Selection"},{"attributes":{"line_alpha":0.2,"line_color":"#3399FF","line_width":2.5,"x":{"field":"month"},"y":{"field":"Houston"}},"id":"1058","type":"Line"},{"attributes":{"bottom_units":"screen","coordinates":null,"fill_alpha":0.5,"fill_color":"lightgrey","group":null,"left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","syncable":false,"top_units":"screen"},"id":"1027","type":"BoxAnnotation"},{"attributes":{},"id":"1012","type":"LinearScale"},{"attributes":{"line_color":"#3399FF","line_width":2.5,"x":{"field":"month"},"y":{"field":"Houston"}},"id":"1056","type":"Line"},{"attributes":{"source":{"id":"1096"}},"id":"1102","type":"CDSView"},{"attributes":{"coordinates":null,"data_source":{"id":"1035"},"glyph":{"id":"1037"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"1039"},"nonselection_glyph":{"id":"1038"},"view":{"id":"1041"}},"id":"1040","type":"GlyphRenderer"},{"attributes":{"line_color":"#CC00CC","line_width":2.5,"x":{"field":"month"},"y":{"field":"Chicago"}},"id":"1098","type":"Line"},{"attributes":{},"id":"1048","type":"AllLabels"},{"attributes":{"data":{"Chicago":{"__ndarray__":"Wf6S5S/ZOECnglZfKug8QCx/yfKXbENAmpmZmZk5SUA0MzMzM3NOQKDTBjptwFFA9nFhHxf2UkDJ8pcsf4lSQGoDnTbQmVBAoE0D2jQgS0BmZmZmZsZEQAAAAAAAAD1A","dtype":"float64","order":"little","shape":[12]},"Death Valley":{"__ndarray__":"Ouecc865SkACjz8c8PhNQP0ly1+yHFFAk18s+cUSU0CnAW0a0KZVQGPJL5b84ldA77333nuPWUCMMcYYYwxZQAOdNtBpw1ZAyfKXLH9JU0BtoNMGOk1PQGCy/CXL30lA","dtype":"float64","order":"little","shape":[12]},"Houston":{"__ndarray__":"ReJVJF4FS0AmuzZRsqtMQGuttdZaq09ABjptoNN2UUAD2jSgTUNTQDCW/GLJf1RAk+UvWf7yVEAppZRSSglVQKRwPQrXA1RAyfKXLH8JUkAzMzMzM5NPQIwxxhhjzEtA","dtype":"float64","order":"little","shape":[12]},"San Diego":{"__ndarray__":"7OPCPi7sS0BPIyz3NEJMQG0a0KYBrUxA8oslv1jyTUCamZmZmZlPQJNfLPnFolBAY4wxxhjDUUAGtGlAmyZSQDCW/GLJr1FAGtCmAW16UECg0wY6bQBOQJqZmZmZmUtA","dtype":"float64","order":"little","shape":[12]},"index":[0,1,2,3,4,5,6,7,8,9,10,11],"month":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]},"selected":{"id":"1117"},"selection_policy":{"id":"1116"}},"id":"1096","type":"ColumnDataSource"},{"attributes":{"line_alpha":0.1,"line_color":"#3399FF","line_width":2.5,"x":{"field":"month"},"y":{"field":"Houston"}},"id":"1057","type":"Line"},{"attributes":{"line_alpha":0.2,"line_color":"#CC00CC","line_width":2.5,"x":{"field":"month"},"y":{"field":"Chicago"}},"id":"1100","type":"Line"},{"attributes":{},"id":"1092","type":"UnionRenderers"},{"attributes":{"coordinates":null,"data_source":{"id":"1074"},"glyph":{"id":"1076"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"1078"},"nonselection_glyph":{"id":"1077"},"view":{"id":"1080"}},"id":"1079","type":"GlyphRenderer"},{"attributes":{"source":{"id":"1035"}},"id":"1041","type":"CDSView"},{"attributes":{},"id":"1025","type":"ResetTool"},{"attributes":{"data":{"Chicago":{"__ndarray__":"Wf6S5S/ZOECnglZfKug8QCx/yfKXbENAmpmZmZk5SUA0MzMzM3NOQKDTBjptwFFA9nFhHxf2UkDJ8pcsf4lSQGoDnTbQmVBAoE0D2jQgS0BmZmZmZsZEQAAAAAAAAD1A","dtype":"float64","order":"little","shape":[12]},"Death Valley":{"__ndarray__":"Ouecc865SkACjz8c8PhNQP0ly1+yHFFAk18s+cUSU0CnAW0a0KZVQGPJL5b84ldA77333nuPWUCMMcYYYwxZQAOdNtBpw1ZAyfKXLH9JU0BtoNMGOk1PQGCy/CXL30lA","dtype":"float64","order":"little","shape":[12]},"Houston":{"__ndarray__":"ReJVJF4FS0AmuzZRsqtMQGuttdZaq09ABjptoNN2UUAD2jSgTUNTQDCW/GLJf1RAk+UvWf7yVEAppZRSSglVQKRwPQrXA1RAyfKXLH8JUkAzMzMzM5NPQIwxxhhjzEtA","dtype":"float64","order":"little","shape":[12]},"San Diego":{"__ndarray__":"7OPCPi7sS0BPIyz3NEJMQG0a0KYBrUxA8oslv1jyTUCamZmZmZlPQJNfLPnFolBAY4wxxhjDUUAGtGlAmyZSQDCW/GLJr1FAGtCmAW16UECg0wY6bQBOQJqZmZmZmUtA","dtype":"float64","order":"little","shape":[12]},"index":[0,1,2,3,4,5,6,7,8,9,10,11],"month":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]},"selected":{"id":"1093"},"selection_policy":{"id":"1092"}},"id":"1074","type":"ColumnDataSource"},{"attributes":{"data":{"Chicago":{"__ndarray__":"Wf6S5S/ZOECnglZfKug8QCx/yfKXbENAmpmZmZk5SUA0MzMzM3NOQKDTBjptwFFA9nFhHxf2UkDJ8pcsf4lSQGoDnTbQmVBAoE0D2jQgS0BmZmZmZsZEQAAAAAAAAD1A","dtype":"float64","order":"little","shape":[12]},"Death Valley":{"__ndarray__":"Ouecc865SkACjz8c8PhNQP0ly1+yHFFAk18s+cUSU0CnAW0a0KZVQGPJL5b84ldA77333nuPWUCMMcYYYwxZQAOdNtBpw1ZAyfKXLH9JU0BtoNMGOk1PQGCy/CXL30lA","dtype":"float64","order":"little","shape":[12]},"Houston":{"__ndarray__":"ReJVJF4FS0AmuzZRsqtMQGuttdZaq09ABjptoNN2UUAD2jSgTUNTQDCW/GLJf1RAk+UvWf7yVEAppZRSSglVQKRwPQrXA1RAyfKXLH8JUkAzMzMzM5NPQIwxxhhjzEtA","dtype":"float64","order":"little","shape":[12]},"San Diego":{"__ndarray__":"7OPCPi7sS0BPIyz3NEJMQG0a0KYBrUxA8oslv1jyTUCamZmZmZlPQJNfLPnFolBAY4wxxhjDUUAGtGlAmyZSQDCW/GLJr1FAGtCmAW16UECg0wY6bQBOQJqZmZmZmUtA","dtype":"float64","order":"little","shape":[12]},"index":[0,1,2,3,4,5,6,7,8,9,10,11],"month":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]},"selected":{"id":"1071"},"selection_policy":{"id":"1070"}},"id":"1054","type":"ColumnDataSource"}],"root_ids":["1004"]},"title":"Bokeh Application","version":"2.4.3"}};
-  const render_items = [{"docid":"eb01dffc-d732-4488-aae9-a2b3e6014773","root_ids":["1004"],"roots":{"1004":"e13b2148-a4cf-4368-940f-075939211441"}}];
+  const docs_json = {"0aa9752d-3bc5-443d-be35-06b7ae378b0c":{"defs":[],"roots":{"references":[{"attributes":{"below":[{"id":"1014"}],"center":[{"id":"1016"},{"id":"1020"}],"height":300,"left":[{"id":"1017"}],"renderers":[{"id":"1040"}],"title":{"id":"1005"},"toolbar":{"id":"1028"},"x_range":{"id":"1003"},"x_scale":{"id":"1010"},"y_range":{"id":"1008"},"y_scale":{"id":"1012"}},"id":"1004","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"1045","type":"AllLabels"},{"attributes":{},"id":"1050","type":"Selection"},{"attributes":{},"id":"1010","type":"CategoricalScale"},{"attributes":{"overlay":{"id":"1027"}},"id":"1023","type":"BoxZoomTool"},{"attributes":{},"id":"1044","type":"BasicTickFormatter"},{"attributes":{"coordinates":null,"data_source":{"id":"1035"},"glyph":{"id":"1037"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"1039"},"nonselection_glyph":{"id":"1038"},"view":{"id":"1041"}},"id":"1040","type":"GlyphRenderer"},{"attributes":{},"id":"1012","type":"LinearScale"},{"attributes":{},"id":"1022","type":"WheelZoomTool"},{"attributes":{},"id":"1026","type":"HelpTool"},{"attributes":{"factors":["Star Wars","Jumanji","Pitch Perfect 3","The Greatest Showman","Ferdinand"]},"id":"1003","type":"FactorRange"},{"attributes":{"coordinates":null,"formatter":{"id":"1047"},"group":null,"major_label_policy":{"id":"1048"},"ticker":{"id":"1015"}},"id":"1014","type":"CategoricalAxis"},{"attributes":{"bottom_units":"screen","coordinates":null,"fill_alpha":0.5,"fill_color":"lightgrey","group":null,"left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","syncable":false,"top_units":"screen"},"id":"1027","type":"BoxAnnotation"},{"attributes":{"axis":{"id":"1017"},"coordinates":null,"dimension":1,"group":null,"ticker":null},"id":"1020","type":"Grid"},{"attributes":{},"id":"1015","type":"CategoricalTicker"},{"attributes":{},"id":"1047","type":"CategoricalTickFormatter"},{"attributes":{"source":{"id":"1035"}},"id":"1041","type":"CDSView"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"value":"#66B2FF"},"hatch_alpha":{"value":0.2},"hatch_color":{"value":"#66B2FF"},"line_alpha":{"value":0.2},"line_color":{"value":"#66B2FF"},"top":{"field":"Weekend gross"},"width":{"value":0.7},"x":{"field":"Title"}},"id":"1039","type":"VBar"},{"attributes":{"start":0},"id":"1008","type":"DataRange1d"},{"attributes":{},"id":"1048","type":"AllLabels"},{"attributes":{"axis":{"id":"1014"},"coordinates":null,"group":null,"ticker":null},"id":"1016","type":"Grid"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#66B2FF"},"hatch_alpha":{"value":0.1},"hatch_color":{"value":"#66B2FF"},"line_alpha":{"value":0.1},"line_color":{"value":"#66B2FF"},"top":{"field":"Weekend gross"},"width":{"value":0.7},"x":{"field":"Title"}},"id":"1038","type":"VBar"},{"attributes":{},"id":"1018","type":"BasicTicker"},{"attributes":{"data":{"Rank":[1,2,3,4,5],"Title":["Star Wars","Jumanji","Pitch Perfect 3","The Greatest Showman","Ferdinand"],"Weekend gross":{"__ndarray__":"Bf2FHjHkUUAHJjeKrBVCQLaEfNCz7TNAymsldJecIUAmjjwQWUQdQA==","dtype":"float64","order":"little","shape":[5]},"index":[0,1,2,3,4]},"selected":{"id":"1050"},"selection_policy":{"id":"1049"}},"id":"1035","type":"ColumnDataSource"},{"attributes":{},"id":"1021","type":"PanTool"},{"attributes":{"tools":[{"id":"1021"},{"id":"1022"},{"id":"1023"},{"id":"1024"},{"id":"1025"},{"id":"1026"}]},"id":"1028","type":"Toolbar"},{"attributes":{"fill_color":{"value":"#66B2FF"},"hatch_color":{"value":"#66B2FF"},"line_color":{"value":"#66B2FF"},"top":{"field":"Weekend gross"},"width":{"value":0.7},"x":{"field":"Title"}},"id":"1037","type":"VBar"},{"attributes":{"axis_label":"weekend gross (million USD)","coordinates":null,"formatter":{"id":"1044"},"group":null,"major_label_policy":{"id":"1045"},"ticker":{"id":"1018"}},"id":"1017","type":"LinearAxis"},{"attributes":{},"id":"1025","type":"ResetTool"},{"attributes":{},"id":"1024","type":"SaveTool"},{"attributes":{"coordinates":null,"group":null,"text":"Movie gross"},"id":"1005","type":"Title"},{"attributes":{},"id":"1049","type":"UnionRenderers"}],"root_ids":["1004"]},"title":"Bokeh Application","version":"2.4.3"}};
+  const render_items = [{"docid":"0aa9752d-3bc5-443d-be35-06b7ae378b0c","root_ids":["1004"],"roots":{"1004":"f4af6dff-113a-42b5-be54-45f566189557"}}];
+  root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
+  }
+  if (root.Bokeh !== undefined) {
+    embed_document(root);
+  } else {
+    let attempts = 0;
+    const timer = setInterval(function(root) {
+      if (root.Bokeh !== undefined) {
+        clearInterval(timer);
+        embed_document(root);
+      } else {
+        attempts++;
+        if (attempts > 100) {
+          clearInterval(timer);
+          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+        }
+      }
+    }, 10, root)
+  }
+})(window);
+</script>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># plot a horizontal bar</span>
+<span class="n">p2</span> <span class="o">=</span> <span class="n">figure</span><span class="p">(</span>
+    <span class="n">y_range</span><span class="o">=</span><span class="n">df</span><span class="o">.</span><span class="n">Title</span><span class="p">,</span>
+    <span class="n">height</span><span class="o">=</span><span class="mi">300</span><span class="p">,</span>
+    <span class="n">title</span><span class="o">=</span><span class="s2">"Movie gross"</span><span class="p">,</span>
+    <span class="n">x_axis_label</span><span class="o">=</span><span class="s2">"weekend gross (million USD)"</span><span class="p">,</span>
+    <span class="n">sizing_mode</span><span class="o">=</span><span class="s2">"stretch_width"</span><span class="p">,</span>
+<span class="p">)</span>
+
+<span class="n">p2</span><span class="o">.</span><span class="n">hbar</span><span class="p">(</span>
+    <span class="n">y</span><span class="o">=</span><span class="s2">"Title"</span><span class="p">,</span> <span class="n">left</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">right</span><span class="o">=</span><span class="s2">"Weekend gross"</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mf">0.8</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s2">"#66B2FF"</span><span class="p">,</span> <span class="n">source</span><span class="o">=</span><span class="n">df</span>
+<span class="p">)</span>
+
+<span class="n">show</span><span class="p">(</span><span class="n">p2</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
+
+  <div class="bk-root" id="813198f5-5907-4548-9ee3-f7002731ad51" data-root-id="1102"></div>
+
+</div>
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+
+
+<div id="9459c4b3-8242-4b16-8ff4-d13d0f4883e2" class="jp-RenderedJavaScript jp-OutputArea-output " data-mime-type="application/javascript">
+<script type="text/javascript">
+var element = document.getElementById('9459c4b3-8242-4b16-8ff4-d13d0f4883e2');
+(function(root) {
+  function embed_document(root) {
+  const docs_json = {"f418cdc6-b214-43fd-9cd8-19cdfb915225":{"defs":[],"roots":{"references":[{"attributes":{"below":[{"id":"1113"}],"center":[{"id":"1116"},{"id":"1119"}],"height":300,"left":[{"id":"1117"}],"renderers":[{"id":"1139"}],"sizing_mode":"stretch_width","title":{"id":"1103"},"toolbar":{"id":"1127"},"x_range":{"id":"1105"},"x_scale":{"id":"1109"},"y_range":{"id":"1107"},"y_scale":{"id":"1111"}},"id":"1102","subtype":"Figure","type":"Plot"},{"attributes":{"axis_label":"weekend gross (million USD)","coordinates":null,"formatter":{"id":"1156"},"group":null,"major_label_policy":{"id":"1157"},"ticker":{"id":"1114"}},"id":"1113","type":"LinearAxis"},{"attributes":{},"id":"1114","type":"BasicTicker"},{"attributes":{"coordinates":null,"data_source":{"id":"1134"},"glyph":{"id":"1136"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"1138"},"nonselection_glyph":{"id":"1137"},"view":{"id":"1140"}},"id":"1139","type":"GlyphRenderer"},{"attributes":{},"id":"1153","type":"CategoricalTickFormatter"},{"attributes":{},"id":"1124","type":"ResetTool"},{"attributes":{"overlay":{"id":"1126"}},"id":"1122","type":"BoxZoomTool"},{"attributes":{},"id":"1154","type":"AllLabels"},{"attributes":{"factors":["Star Wars","Jumanji","Pitch Perfect 3","The Greatest Showman","Ferdinand"]},"id":"1107","type":"FactorRange"},{"attributes":{},"id":"1156","type":"BasicTickFormatter"},{"attributes":{"tools":[{"id":"1120"},{"id":"1121"},{"id":"1122"},{"id":"1123"},{"id":"1124"},{"id":"1125"}]},"id":"1127","type":"Toolbar"},{"attributes":{"bottom_units":"screen","coordinates":null,"fill_alpha":0.5,"fill_color":"lightgrey","group":null,"left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","syncable":false,"top_units":"screen"},"id":"1126","type":"BoxAnnotation"},{"attributes":{},"id":"1157","type":"AllLabels"},{"attributes":{"source":{"id":"1134"}},"id":"1140","type":"CDSView"},{"attributes":{},"id":"1105","type":"DataRange1d"},{"attributes":{},"id":"1120","type":"PanTool"},{"attributes":{"axis":{"id":"1113"},"coordinates":null,"group":null,"ticker":null},"id":"1116","type":"Grid"},{"attributes":{"data":{"Rank":[1,2,3,4,5],"Title":["Star Wars","Jumanji","Pitch Perfect 3","The Greatest Showman","Ferdinand"],"Weekend gross":{"__ndarray__":"Bf2FHjHkUUAHJjeKrBVCQLaEfNCz7TNAymsldJecIUAmjjwQWUQdQA==","dtype":"float64","order":"little","shape":[5]},"index":[0,1,2,3,4]},"selected":{"id":"1159"},"selection_policy":{"id":"1158"}},"id":"1134","type":"ColumnDataSource"},{"attributes":{},"id":"1121","type":"WheelZoomTool"},{"attributes":{},"id":"1109","type":"LinearScale"},{"attributes":{},"id":"1118","type":"CategoricalTicker"},{"attributes":{},"id":"1111","type":"CategoricalScale"},{"attributes":{"axis":{"id":"1117"},"coordinates":null,"dimension":1,"group":null,"ticker":null},"id":"1119","type":"Grid"},{"attributes":{"coordinates":null,"group":null,"text":"Movie gross"},"id":"1103","type":"Title"},{"attributes":{"coordinates":null,"formatter":{"id":"1153"},"group":null,"major_label_policy":{"id":"1154"},"ticker":{"id":"1118"}},"id":"1117","type":"CategoricalAxis"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#66B2FF"},"hatch_alpha":{"value":0.1},"hatch_color":{"value":"#66B2FF"},"height":{"value":0.8},"line_alpha":{"value":0.1},"line_color":{"value":"#66B2FF"},"right":{"field":"Weekend gross"},"y":{"field":"Title"}},"id":"1137","type":"HBar"},{"attributes":{},"id":"1158","type":"UnionRenderers"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"value":"#66B2FF"},"hatch_alpha":{"value":0.2},"hatch_color":{"value":"#66B2FF"},"height":{"value":0.8},"line_alpha":{"value":0.2},"line_color":{"value":"#66B2FF"},"right":{"field":"Weekend gross"},"y":{"field":"Title"}},"id":"1138","type":"HBar"},{"attributes":{},"id":"1159","type":"Selection"},{"attributes":{"fill_color":{"value":"#66B2FF"},"hatch_color":{"value":"#66B2FF"},"height":{"value":0.8},"line_color":{"value":"#66B2FF"},"right":{"field":"Weekend gross"},"y":{"field":"Title"}},"id":"1136","type":"HBar"},{"attributes":{},"id":"1123","type":"SaveTool"},{"attributes":{},"id":"1125","type":"HelpTool"}],"root_ids":["1102"]},"title":"Bokeh Application","version":"2.4.3"}};
+  const render_items = [{"docid":"f418cdc6-b214-43fd-9cd8-19cdfb915225","root_ids":["1102"],"roots":{"1102":"813198f5-5907-4548-9ee3-f7002731ad51"}}];
   root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
   }
   if (root.Bokeh !== undefined) {
@@ -15270,28 +15174,31 @@ var element = document.getElementById('674dfd85-255c-47cc-8360-6cdde768b3e2');
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>First, you create a figure object using the <code>figure()</code> method which serves as the basis for the plots. It accepts the following optional keyword arguments:</p>
+<p>The <code>vbar()</code> and <code>hbar()</code> methods of the Bokeh <code>Figure</code> class are used to create the vertical and horizontal bar plots respectively.</p>
+<p>The <code>vbar()</code> methods takes the following parameters:</p>
 <ul>
-<li>title: Specifies the title of the figure.</li>
-<li>height, width: Sets the height and width of the figure in pixels.</li>
-<li>toolbar_location: Specifies the position of the toolbar relative to the figure. You can also set it to None if you don't want to show it.</li>
-<li>x_range: Sets the range of values for the x-axis.</li>
-<li>x_axis_label, y_axis_label: Sets the labels for the x-axis and y-axis, respectively.</li>
-</ul>
-<p>Then, you add the line method to the <code>figure</code> variable to generate the line plot. The <code>line()</code> method accepts the following parameters:</p>
-<ul>
-<li><p>x, y (required): The x and y coordinates of the data points to be plotted. It can be provided as a single array-like object or a column name from a data source.</p>
+<li><p><code>x</code>: The x-coordinates of the bars. It can be a list of categorical values or numerical positions.</p>
 </li>
-<li><p>source (optional): The data source containing the x and y data. It can be a DataFrame, ColumnDataSource, or other data structure compatible with Bokeh.</p>
+<li><p><code>top</code>: The top coordinates of the bars. It can be a list of numerical values representing the heights of the bars.</p>
 </li>
-<li><p>legend_label (optional): The label to display in the legend for the line.</p>
+<li><p><code>width</code>: The width of the bars. It can be a numerical value or a categorical range (e.g., a list of categories).</p>
 </li>
-<li><p>color (optional): The color of the line. It can be specified as a string (e.g., "red", "#FF0000") or as a column name from the data source that contains color values.</p>
+<li><p><code>source</code>: The data source containing the <code>x</code> and <code>top</code> values if they are strings.</p>
 </li>
-<li><p>line_width (optional): The width of the line in pixels.</p>
+<li><p>Other optional parameters: color, alpha, line width, etc.</p>
 </li>
 </ul>
-<p>By calling the <code>line</code> argument multiple times, you can add multiple lines to a single figure as shown.</p>
+<p>The <code>hbar()</code> method takes the following parameters:</p>
+<ul>
+<li><p>y: The y-coordinates of the bars. It can be a list of categorical values or numerical positions.</p>
+</li>
+<li><p>right: The right coordinates of the bars. It can be a list of numerical values representing the right endpoints of the bars.</p>
+</li>
+<li><p>height: The vertical height of the bars. It can be a numerical value or a categorical range (e.g., a list of categories).</p>
+</li>
+<li><p>Other optional parameters: Same as for the <code>vbar()</code> method</p>
+</li>
+</ul>
 
 </div>
 </div>
