@@ -6,7 +6,7 @@
 
 This repository hosts Bokeh equivalents for various plots from [*Fundamentals of Data Visualization* by Claus O. Wilke](https://clauswilke.com/dataviz/). It provides a collection of interactive data visualizations implemented using the Bokeh library.
 
-The full rendered pages of this repository can be found [here](https://azaya89.github.io/dataviz-fundamentals/)
+The full rendered pages of this repository can be found [here](https://bokeh.github.io/dataviz-fundamentals/)
 
 ## Table of contents (WIP)
 
