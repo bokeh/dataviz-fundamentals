@@ -1,0 +1,11 @@
+cacao_mcmc.rda
+internet.rda
+map_polys.rda
+sfbay_maps.rda
+texas_income.rda
+texas_race.rda
+US_counties_geoms.rda
+US_counties_income.rda
+US_income.rda
+US_income_cartogram.rda
+US_states_geoms.rda

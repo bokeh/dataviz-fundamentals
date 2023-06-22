@@ -1,0 +1,705 @@
+country,region,year,cpi,hdi
+Denmark,Europe and Central Asia,2015.0,91.0,0.925
+New Zealand,Asia Pacific,2015.0,91.0,0.915
+Finland,Europe and Central Asia,2015.0,90.0,0.895
+Sweden,Europe and Central Asia,2015.0,89.0,0.913
+Switzerland,Europe and Central Asia,2015.0,86.0,0.939
+Norway,Europe and Central Asia,2015.0,88.0,0.949
+Singapore,Asia Pacific,2015.0,85.0,0.925
+Netherlands,Europe and Central Asia,2015.0,84.0,0.924
+Canada,Americas,2015.0,83.0,0.92
+Germany,Europe and Central Asia,2015.0,81.0,0.926
+Luxembourg,Europe and Central Asia,2015.0,85.0,0.898
+United Kingdom,Europe and Central Asia,2015.0,81.0,0.91
+Australia,Asia Pacific,2015.0,79.0,0.939
+Iceland,Europe and Central Asia,2015.0,79.0,0.921
+Belgium,Europe and Central Asia,2015.0,77.0,0.896
+Hong Kong,Asia Pacific,2015.0,75.0,
+Austria,Europe and Central Asia,2015.0,76.0,0.893
+United States,Americas,2015.0,76.0,0.92
+Ireland,Europe and Central Asia,2015.0,75.0,0.923
+Japan,Asia Pacific,2015.0,75.0,0.903
+Uruguay,Americas,2015.0,74.0,0.795
+Estonia,Europe and Central Asia,2015.0,70.0,0.865
+France,Europe and Central Asia,2015.0,70.0,0.897
+Bahamas,Americas,2015.0,,0.792
+Chile,Americas,2015.0,70.0,0.847
+United Arab Emirates,Middle East and North Africa,2015.0,70.0,0.84
+Bhutan,Asia Pacific,2015.0,65.0,0.607
+Israel,Middle East and North Africa,2015.0,61.0,0.899
+Poland,Europe and Central Asia,2015.0,63.0,0.855
+Portugal,Europe and Central Asia,2015.0,64.0,0.843
+Barbados,Americas,2015.0,,0.795
+Qatar,Middle East and North Africa,2015.0,71.0,0.856
+Slovenia,Europe and Central Asia,2015.0,60.0,0.89
+Taiwan,Asia Pacific,2015.0,62.0,
+Botswana,Sub Saharan Africa,2015.0,63.0,0.698
+Saint Lucia,Americas,2015.0,,0.735
+Saint Vincent and the Grenadines,Americas,2015.0,,0.722
+Cape Verde,Sub Saharan Africa,2015.0,55.0,
+Dominica,Americas,2015.0,,0.726
+Lithuania,Europe and Central Asia,2015.0,59.0,0.848
+Brunei,Asia Pacific,2015.0,,
+Costa Rica,Americas,2015.0,55.0,0.776
+Spain,Europe and Central Asia,2015.0,58.0,0.884
+Georgia,Europe and Central Asia,2015.0,52.0,0.769
+Latvia,Europe and Central Asia,2015.0,56.0,0.83
+Grenada,Americas,2015.0,,0.754
+Cyprus,Europe and Central Asia,2015.0,61.0,0.856
+Czech Republic,Europe and Central Asia,2015.0,56.0,0.878
+Malta,Europe and Central Asia,2015.0,60.0,0.856
+Mauritius,Sub Saharan Africa,2015.0,53.0,0.781
+Rwanda,Sub Saharan Africa,2015.0,54.0,0.498
+Korea (South),Asia Pacific,2015.0,54.0,
+Namibia,Sub Saharan Africa,2015.0,53.0,0.64
+Slovakia,Europe and Central Asia,2015.0,51.0,0.845
+Croatia,Europe and Central Asia,2015.0,51.0,0.827
+Malaysia,Asia Pacific,2015.0,50.0,0.789
+Hungary,Europe and Central Asia,2015.0,51.0,0.836
+Jordan,Middle East and North Africa,2015.0,53.0,0.742
+Romania,Europe and Central Asia,2015.0,46.0,0.802
+Cuba,Americas,2015.0,47.0,0.775
+Italy,Europe and Central Asia,2015.0,44.0,0.887
+Sao Tome and Principe,Sub Saharan Africa,2015.0,42.0,0.574
+Saudi Arabia,Middle East and North Africa,2015.0,52.0,0.847
+Montenegro,Europe and Central Asia,2015.0,44.0,0.807
+Oman,Middle East and North Africa,2015.0,45.0,0.796
+Senegal,Sub Saharan Africa,2015.0,44.0,0.494
+South Africa,Sub Saharan Africa,2015.0,44.0,0.666
+Suriname,Americas,2015.0,36.0,0.725
+Greece,Europe and Central Asia,2015.0,46.0,0.866
+Bahrain,Middle East and North Africa,2015.0,51.0,0.824
+Ghana,Sub Saharan Africa,2015.0,47.0,0.579
+Burkina Faso,Sub Saharan Africa,2015.0,38.0,0.402
+Serbia,Europe and Central Asia,2015.0,40.0,0.776
+Solomon Islands,Asia Pacific,2015.0,,0.515
+Bulgaria,Europe and Central Asia,2015.0,41.0,0.794
+Kuwait,Middle East and North Africa,2015.0,49.0,0.8
+Tunisia,Middle East and North Africa,2015.0,38.0,0.725
+Turkey,Europe and Central Asia,2015.0,42.0,0.767
+Belarus,Europe and Central Asia,2015.0,32.0,0.796
+Brazil,Americas,2015.0,38.0,0.754
+China,Asia Pacific,2015.0,37.0,0.738
+India,Asia Pacific,2015.0,38.0,0.624
+Albania,Europe and Central Asia,2015.0,36.0,0.764
+Bosnia and Herzegovina,Europe and Central Asia,2015.0,38.0,0.75
+Jamaica,Americas,2015.0,41.0,0.73
+Lesotho,Sub Saharan Africa,2015.0,44.0,0.497
+Mongolia,Asia Pacific,2015.0,39.0,0.735
+Panama,Americas,2015.0,39.0,0.788
+Zambia,Sub Saharan Africa,2015.0,38.0,0.579
+Colombia,Americas,2015.0,37.0,0.727
+Indonesia,Asia Pacific,2015.0,36.0,0.689
+Liberia,Sub Saharan Africa,2015.0,37.0,0.427
+Morocco,Middle East and North Africa,2015.0,36.0,0.647
+The FYR of Macedonia,Europe and Central Asia,2015.0,42.0,
+Argentina,Americas,2015.0,32.0,0.827
+Benin,Sub Saharan Africa,2015.0,37.0,0.485
+El Salvador,Americas,2015.0,39.0,0.68
+Kosovo,Europe and Central Asia,2015.0,33.0,
+Maldives,Asia Pacific,2015.0,,0.701
+Sri Lanka,Asia Pacific,2015.0,37.0,0.766
+Gabon,Sub Saharan Africa,2015.0,34.0,0.697
+Niger,Sub Saharan Africa,2015.0,34.0,0.353
+Peru,Americas,2015.0,36.0,0.74
+Philippines,Asia Pacific,2015.0,35.0,0.682
+Thailand,Asia Pacific,2015.0,38.0,0.74
+Timor-Leste,Asia Pacific,2015.0,28.0,0.606
+Trinidad and Tobago,Americas,2015.0,39.0,0.78
+Algeria,Middle East and North Africa,2015.0,36.0,0.745
+Côte d´Ivoire,Sub Saharan Africa,2015.0,32.0,
+Egypt,Middle East and North Africa,2015.0,36.0,0.691
+Ethiopia,Sub Saharan Africa,2015.0,33.0,0.448
+Guyana,Americas,2015.0,29.0,0.638
+Armenia,Europe and Central Asia,2015.0,35.0,0.743
+Bolivia,Americas,2015.0,34.0,
+Vietnam,Asia Pacific,2015.0,31.0,
+Mali,Sub Saharan Africa,2015.0,35.0,0.442
+Pakistan,Asia Pacific,2015.0,30.0,0.55
+Tanzania,Sub Saharan Africa,2015.0,30.0,
+Togo,Sub Saharan Africa,2015.0,32.0,0.487
+Dominican Republic,Americas,2015.0,33.0,0.722
+Ecuador,Americas,2015.0,32.0,0.739
+Malawi,Sub Saharan Africa,2015.0,31.0,0.476
+Azerbaijan,Europe and Central Asia,2015.0,29.0,0.759
+Djibouti,Sub Saharan Africa,2015.0,34.0,0.473
+Honduras,Americas,2015.0,31.0,0.625
+Laos,Asia Pacific,2015.0,25.0,
+Mexico,Americas,2015.0,31.0,0.762
+Moldova,Europe and Central Asia,2015.0,33.0,
+Paraguay,Americas,2015.0,27.0,0.693
+Sierra Leone,Sub Saharan Africa,2015.0,29.0,0.42
+Iran,Middle East and North Africa,2015.0,27.0,
+Kazakhstan,Europe and Central Asia,2015.0,28.0,0.794
+Nepal,Asia Pacific,2015.0,27.0,0.558
+Russia,Europe and Central Asia,2015.0,29.0,
+Ukraine,Europe and Central Asia,2015.0,27.0,0.743
+Guatemala,Americas,2015.0,28.0,0.64
+Kyrgyzstan,Europe and Central Asia,2015.0,28.0,0.664
+Lebanon,Middle East and North Africa,2015.0,28.0,0.763
+Myanmar,Asia Pacific,2015.0,22.0,0.556
+Nigeria,Sub Saharan Africa,2015.0,26.0,0.527
+Papua New Guinea,Asia Pacific,2015.0,25.0,0.516
+Guinea,Sub Saharan Africa,2015.0,25.0,0.414
+Mauritania,Middle East and North Africa,2015.0,31.0,0.513
+Mozambique,Sub Saharan Africa,2015.0,31.0,0.418
+Bangladesh,Asia Pacific,2015.0,25.0,0.579
+Cameroon,Sub Saharan Africa,2015.0,27.0,0.518
+Gambia,Sub Saharan Africa,2015.0,28.0,0.452
+Kenya,Sub Saharan Africa,2015.0,25.0,0.555
+Madagascar,Sub Saharan Africa,2015.0,28.0,0.512
+Nicaragua,Americas,2015.0,27.0,0.645
+Tajikistan,Europe and Central Asia,2015.0,26.0,0.627
+Uganda,Sub Saharan Africa,2015.0,25.0,0.493
+Comoros,Sub Saharan Africa,2015.0,26.0,0.498
+Turkmenistan,Europe and Central Asia,2015.0,18.0,0.692
+Zimbabwe,Sub Saharan Africa,2015.0,21.0,0.516
+Cambodia,Asia Pacific,2015.0,21.0,0.563
+Democratic Republic of Congo,Sub Saharan Africa,2015.0,22.0,
+Uzbekistan,Europe and Central Asia,2015.0,19.0,0.701
+Burundi,Sub Saharan Africa,2015.0,21.0,0.404
+Central African Republic,Sub Saharan Africa,2015.0,24.0,0.352
+Chad,Sub Saharan Africa,2015.0,22.0,0.396
+Haiti,Americas,2015.0,17.0,0.493
+Republic of Congo,Sub Saharan Africa,2015.0,23.0,
+Angola,Sub Saharan Africa,2015.0,15.0,0.533
+Eritrea,Sub Saharan Africa,2015.0,18.0,0.42
+Iraq,Middle East and North Africa,2015.0,16.0,0.649
+Venezuela,Americas,2015.0,17.0,
+Guinea-Bissau,Sub Saharan Africa,2015.0,17.0,0.424
+Afghanistan,Asia Pacific,2015.0,11.0,0.479
+Libya,Middle East and North Africa,2015.0,16.0,0.716
+Sudan,Middle East and North Africa,2015.0,12.0,0.49
+Yemen,Middle East and North Africa,2015.0,18.0,0.482
+Syria,Middle East and North Africa,2015.0,18.0,
+Korea (North),Asia Pacific,2015.0,8.0,
+South Sudan,Sub Saharan Africa,2015.0,15.0,0.418
+Somalia,Sub Saharan Africa,2015.0,8.0,
+Denmark,Europe and Central Asia,2014.0,92.0,0.923
+New Zealand,Asia Pacific,2014.0,91.0,0.913
+Finland,Europe and Central Asia,2014.0,89.0,0.893
+Sweden,Europe and Central Asia,2014.0,87.0,0.909
+Switzerland,Europe and Central Asia,2014.0,86.0,0.938
+Norway,Europe and Central Asia,2014.0,86.0,0.948
+Singapore,Asia Pacific,2014.0,84.0,0.924
+Netherlands,Europe and Central Asia,2014.0,83.0,0.923
+Canada,Americas,2014.0,81.0,0.919
+Germany,Europe and Central Asia,2014.0,79.0,0.924
+Luxembourg,Europe and Central Asia,2014.0,82.0,0.896
+United Kingdom,Europe and Central Asia,2014.0,78.0,0.908
+Australia,Asia Pacific,2014.0,80.0,0.937
+Iceland,Europe and Central Asia,2014.0,79.0,0.919
+Belgium,Europe and Central Asia,2014.0,76.0,0.895
+Hong Kong,Asia Pacific,2014.0,74.0,
+Austria,Europe and Central Asia,2014.0,72.0,0.892
+United States,Americas,2014.0,74.0,0.918
+Ireland,Europe and Central Asia,2014.0,74.0,0.92
+Japan,Asia Pacific,2014.0,76.0,0.902
+Uruguay,Americas,2014.0,73.0,0.794
+Estonia,Europe and Central Asia,2014.0,69.0,0.863
+France,Europe and Central Asia,2014.0,69.0,0.894
+Bahamas,Americas,2014.0,71.0,0.79
+Chile,Americas,2014.0,73.0,0.845
+United Arab Emirates,Middle East and North Africa,2014.0,70.0,0.836
+Bhutan,Asia Pacific,2014.0,65.0,0.604
+Israel,Middle East and North Africa,2014.0,60.0,0.898
+Poland,Europe and Central Asia,2014.0,61.0,0.852
+Portugal,Europe and Central Asia,2014.0,63.0,0.841
+Barbados,Americas,2014.0,74.0,0.794
+Qatar,Middle East and North Africa,2014.0,69.0,0.855
+Slovenia,Europe and Central Asia,2014.0,58.0,0.888
+Taiwan,Asia Pacific,2014.0,61.0,
+Botswana,Sub Saharan Africa,2014.0,63.0,0.698
+Saint Lucia,Americas,2014.0,71.0,0.735
+Saint Vincent and the Grenadines,Americas,2014.0,62.0,0.72
+Cape Verde,Sub Saharan Africa,2014.0,57.0,
+Dominica,Americas,2014.0,58.0,0.724
+Lithuania,Europe and Central Asia,2014.0,58.0,0.846
+Brunei,Asia Pacific,2014.0,,
+Costa Rica,Americas,2014.0,54.0,0.775
+Spain,Europe and Central Asia,2014.0,60.0,0.882
+Georgia,Europe and Central Asia,2014.0,52.0,0.768
+Latvia,Europe and Central Asia,2014.0,55.0,0.828
+Grenada,Americas,2014.0,,0.751
+Cyprus,Europe and Central Asia,2014.0,63.0,0.854
+Czech Republic,Europe and Central Asia,2014.0,51.0,0.875
+Malta,Europe and Central Asia,2014.0,55.0,0.853
+Mauritius,Sub Saharan Africa,2014.0,54.0,0.779
+Rwanda,Sub Saharan Africa,2014.0,49.0,0.493
+Korea (South),Asia Pacific,2014.0,55.0,
+Namibia,Sub Saharan Africa,2014.0,49.0,0.637
+Slovakia,Europe and Central Asia,2014.0,50.0,0.842
+Croatia,Europe and Central Asia,2014.0,48.0,0.823
+Malaysia,Asia Pacific,2014.0,52.0,0.787
+Hungary,Europe and Central Asia,2014.0,54.0,0.834
+Jordan,Middle East and North Africa,2014.0,49.0,0.741
+Romania,Europe and Central Asia,2014.0,43.0,0.798
+Cuba,Americas,2014.0,46.0,0.773
+Italy,Europe and Central Asia,2014.0,43.0,0.881
+Sao Tome and Principe,Sub Saharan Africa,2014.0,42.0,0.565
+Saudi Arabia,Middle East and North Africa,2014.0,49.0,0.845
+Montenegro,Europe and Central Asia,2014.0,42.0,0.804
+Oman,Middle East and North Africa,2014.0,45.0,0.795
+Senegal,Sub Saharan Africa,2014.0,43.0,0.491
+South Africa,Sub Saharan Africa,2014.0,44.0,0.665
+Suriname,Americas,2014.0,36.0,0.723
+Greece,Europe and Central Asia,2014.0,43.0,0.865
+Bahrain,Middle East and North Africa,2014.0,49.0,0.823
+Ghana,Sub Saharan Africa,2014.0,48.0,0.575
+Burkina Faso,Sub Saharan Africa,2014.0,38.0,0.399
+Serbia,Europe and Central Asia,2014.0,41.0,0.775
+Solomon Islands,Asia Pacific,2014.0,,0.514
+Bulgaria,Europe and Central Asia,2014.0,43.0,0.792
+Kuwait,Middle East and North Africa,2014.0,44.0,0.799
+Tunisia,Middle East and North Africa,2014.0,40.0,0.723
+Turkey,Europe and Central Asia,2014.0,45.0,0.764
+Belarus,Europe and Central Asia,2014.0,31.0,0.798
+Brazil,Americas,2014.0,43.0,0.754
+China,Asia Pacific,2014.0,36.0,0.734
+India,Asia Pacific,2014.0,38.0,0.615
+Albania,Europe and Central Asia,2014.0,33.0,0.762
+Bosnia and Herzegovina,Europe and Central Asia,2014.0,39.0,0.747
+Jamaica,Americas,2014.0,38.0,0.729
+Lesotho,Sub Saharan Africa,2014.0,49.0,0.495
+Mongolia,Asia Pacific,2014.0,39.0,0.733
+Panama,Americas,2014.0,37.0,0.785
+Zambia,Sub Saharan Africa,2014.0,38.0,0.576
+Colombia,Americas,2014.0,37.0,0.724
+Indonesia,Asia Pacific,2014.0,34.0,0.686
+Liberia,Sub Saharan Africa,2014.0,37.0,0.427
+Morocco,Middle East and North Africa,2014.0,39.0,0.645
+The FYR of Macedonia,Europe and Central Asia,2014.0,45.0,
+Argentina,Americas,2014.0,34.0,0.826
+Benin,Sub Saharan Africa,2014.0,39.0,0.481
+El Salvador,Americas,2014.0,39.0,0.678
+Kosovo,Europe and Central Asia,2014.0,33.0,
+Maldives,Asia Pacific,2014.0,,0.701
+Sri Lanka,Asia Pacific,2014.0,38.0,0.764
+Gabon,Sub Saharan Africa,2014.0,37.0,0.694
+Niger,Sub Saharan Africa,2014.0,35.0,0.351
+Peru,Americas,2014.0,38.0,0.737
+Philippines,Asia Pacific,2014.0,38.0,0.679
+Thailand,Asia Pacific,2014.0,38.0,0.738
+Timor-Leste,Asia Pacific,2014.0,28.0,0.603
+Trinidad and Tobago,Americas,2014.0,38.0,0.779
+Algeria,Middle East and North Africa,2014.0,36.0,0.743
+Côte d´Ivoire,Sub Saharan Africa,2014.0,32.0,
+Egypt,Middle East and North Africa,2014.0,37.0,0.688
+Ethiopia,Sub Saharan Africa,2014.0,33.0,0.441
+Guyana,Americas,2014.0,30.0,0.638
+Armenia,Europe and Central Asia,2014.0,37.0,0.741
+Bolivia,Americas,2014.0,35.0,
+Vietnam,Asia Pacific,2014.0,31.0,
+Mali,Sub Saharan Africa,2014.0,32.0,0.438
+Pakistan,Asia Pacific,2014.0,29.0,0.548
+Tanzania,Sub Saharan Africa,2014.0,31.0,
+Togo,Sub Saharan Africa,2014.0,29.0,0.484
+Dominican Republic,Americas,2014.0,32.0,0.718
+Ecuador,Americas,2014.0,33.0,0.739
+Malawi,Sub Saharan Africa,2014.0,33.0,0.473
+Azerbaijan,Europe and Central Asia,2014.0,29.0,0.758
+Djibouti,Sub Saharan Africa,2014.0,34.0,0.47
+Honduras,Americas,2014.0,29.0,0.623
+Laos,Asia Pacific,2014.0,25.0,
+Mexico,Americas,2014.0,35.0,0.758
+Moldova,Europe and Central Asia,2014.0,35.0,
+Paraguay,Americas,2014.0,24.0,0.692
+Sierra Leone,Sub Saharan Africa,2014.0,31.0,0.431
+Iran,Middle East and North Africa,2014.0,27.0,
+Kazakhstan,Europe and Central Asia,2014.0,29.0,0.793
+Nepal,Asia Pacific,2014.0,29.0,0.555
+Russia,Europe and Central Asia,2014.0,27.0,
+Ukraine,Europe and Central Asia,2014.0,26.0,0.748
+Guatemala,Americas,2014.0,32.0,0.637
+Kyrgyzstan,Europe and Central Asia,2014.0,27.0,0.662
+Lebanon,Middle East and North Africa,2014.0,27.0,0.763
+Myanmar,Asia Pacific,2014.0,21.0,0.552
+Nigeria,Sub Saharan Africa,2014.0,27.0,0.525
+Papua New Guinea,Asia Pacific,2014.0,25.0,0.515
+Guinea,Sub Saharan Africa,2014.0,25.0,0.414
+Mauritania,Middle East and North Africa,2014.0,30.0,0.513
+Mozambique,Sub Saharan Africa,2014.0,31.0,0.414
+Bangladesh,Asia Pacific,2014.0,25.0,0.575
+Cameroon,Sub Saharan Africa,2014.0,27.0,0.514
+Gambia,Sub Saharan Africa,2014.0,29.0,0.45
+Kenya,Sub Saharan Africa,2014.0,25.0,0.55
+Madagascar,Sub Saharan Africa,2014.0,28.0,0.511
+Nicaragua,Americas,2014.0,28.0,0.642
+Tajikistan,Europe and Central Asia,2014.0,23.0,0.625
+Uganda,Sub Saharan Africa,2014.0,26.0,0.488
+Comoros,Sub Saharan Africa,2014.0,26.0,0.498
+Turkmenistan,Europe and Central Asia,2014.0,17.0,0.688
+Zimbabwe,Sub Saharan Africa,2014.0,21.0,0.507
+Cambodia,Asia Pacific,2014.0,21.0,0.558
+Democratic Republic of Congo,Sub Saharan Africa,2014.0,22.0,
+Uzbekistan,Europe and Central Asia,2014.0,18.0,0.697
+Burundi,Sub Saharan Africa,2014.0,20.0,0.406
+Central African Republic,Sub Saharan Africa,2014.0,24.0,0.347
+Chad,Sub Saharan Africa,2014.0,22.0,0.394
+Haiti,Americas,2014.0,19.0,0.49
+Republic of Congo,Sub Saharan Africa,2014.0,23.0,
+Angola,Sub Saharan Africa,2014.0,19.0,0.531
+Eritrea,Sub Saharan Africa,2014.0,18.0,0.418
+Iraq,Middle East and North Africa,2014.0,16.0,0.649
+Venezuela,Americas,2014.0,19.0,
+Guinea-Bissau,Sub Saharan Africa,2014.0,19.0,0.421
+Afghanistan,Asia Pacific,2014.0,12.0,0.479
+Libya,Middle East and North Africa,2014.0,18.0,0.719
+Sudan,Middle East and North Africa,2014.0,11.0,0.488
+Yemen,Middle East and North Africa,2014.0,19.0,0.499
+Syria,Middle East and North Africa,2014.0,20.0,
+Korea (North),Asia Pacific,2014.0,8.0,
+South Sudan,Sub Saharan Africa,2014.0,15.0,0.421
+Somalia,Sub Saharan Africa,2014.0,8.0,
+Denmark,Europe and Central Asia,2013.0,91.0,0.926
+New Zealand,Asia Pacific,2013.0,91.0,0.91
+Finland,Europe and Central Asia,2013.0,89.0,0.89
+Sweden,Europe and Central Asia,2013.0,89.0,0.906
+Switzerland,Europe and Central Asia,2013.0,85.0,0.936
+Norway,Europe and Central Asia,2013.0,86.0,0.945
+Singapore,Asia Pacific,2013.0,86.0,0.922
+Netherlands,Europe and Central Asia,2013.0,83.0,0.923
+Canada,Americas,2013.0,81.0,0.912
+Germany,Europe and Central Asia,2013.0,78.0,0.92
+Luxembourg,Europe and Central Asia,2013.0,80.0,0.892
+United Kingdom,Europe and Central Asia,2013.0,76.0,0.904
+Australia,Asia Pacific,2013.0,81.0,0.936
+Iceland,Europe and Central Asia,2013.0,78.0,0.915
+Belgium,Europe and Central Asia,2013.0,75.0,0.89
+Hong Kong,Asia Pacific,2013.0,75.0,
+Austria,Europe and Central Asia,2013.0,69.0,0.892
+United States,Americas,2013.0,73.0,0.916
+Ireland,Europe and Central Asia,2013.0,72.0,0.91
+Japan,Asia Pacific,2013.0,74.0,0.899
+Uruguay,Americas,2013.0,73.0,0.791
+Estonia,Europe and Central Asia,2013.0,68.0,0.86
+France,Europe and Central Asia,2013.0,71.0,0.89
+Bahamas,Americas,2013.0,71.0,0.789
+Chile,Americas,2013.0,71.0,0.841
+United Arab Emirates,Middle East and North Africa,2013.0,69.0,0.832
+Bhutan,Asia Pacific,2013.0,63.0,0.596
+Israel,Middle East and North Africa,2013.0,61.0,0.895
+Poland,Europe and Central Asia,2013.0,60.0,0.85
+Portugal,Europe and Central Asia,2013.0,62.0,0.837
+Barbados,Americas,2013.0,75.0,0.793
+Qatar,Middle East and North Africa,2013.0,68.0,0.854
+Slovenia,Europe and Central Asia,2013.0,57.0,0.888
+Taiwan,Asia Pacific,2013.0,61.0,
+Botswana,Sub Saharan Africa,2013.0,64.0,0.697
+Saint Lucia,Americas,2013.0,71.0,0.723
+Saint Vincent and the Grenadines,Americas,2013.0,62.0,0.72
+Cape Verde,Sub Saharan Africa,2013.0,58.0,
+Dominica,Americas,2013.0,58.0,0.724
+Lithuania,Europe and Central Asia,2013.0,57.0,0.841
+Brunei,Asia Pacific,2013.0,60.0,
+Costa Rica,Americas,2013.0,53.0,0.768
+Spain,Europe and Central Asia,2013.0,59.0,0.877
+Georgia,Europe and Central Asia,2013.0,49.0,0.759
+Latvia,Europe and Central Asia,2013.0,53.0,0.822
+Grenada,Americas,2013.0,,0.749
+Cyprus,Europe and Central Asia,2013.0,63.0,0.85
+Czech Republic,Europe and Central Asia,2013.0,48.0,0.871
+Malta,Europe and Central Asia,2013.0,56.0,0.847
+Mauritius,Sub Saharan Africa,2013.0,52.0,0.769
+Rwanda,Sub Saharan Africa,2013.0,53.0,0.488
+Korea (South),Asia Pacific,2013.0,55.0,
+Namibia,Sub Saharan Africa,2013.0,48.0,0.632
+Slovakia,Europe and Central Asia,2013.0,47.0,0.841
+Croatia,Europe and Central Asia,2013.0,48.0,0.82
+Malaysia,Asia Pacific,2013.0,50.0,0.783
+Hungary,Europe and Central Asia,2013.0,54.0,0.834
+Jordan,Middle East and North Africa,2013.0,45.0,0.737
+Romania,Europe and Central Asia,2013.0,43.0,0.797
+Cuba,Americas,2013.0,46.0,0.772
+Italy,Europe and Central Asia,2013.0,43.0,0.877
+Sao Tome and Principe,Sub Saharan Africa,2013.0,42.0,0.562
+Saudi Arabia,Middle East and North Africa,2013.0,46.0,0.841
+Montenegro,Europe and Central Asia,2013.0,44.0,0.803
+Oman,Middle East and North Africa,2013.0,47.0,0.796
+Senegal,Sub Saharan Africa,2013.0,41.0,0.483
+South Africa,Sub Saharan Africa,2013.0,42.0,0.66
+Suriname,Americas,2013.0,36.0,0.722
+Greece,Europe and Central Asia,2013.0,40.0,0.862
+Bahrain,Middle East and North Africa,2013.0,48.0,0.82
+Ghana,Sub Saharan Africa,2013.0,46.0,0.576
+Burkina Faso,Sub Saharan Africa,2013.0,38.0,0.398
+Serbia,Europe and Central Asia,2013.0,42.0,0.771
+Solomon Islands,Asia Pacific,2013.0,,0.512
+Bulgaria,Europe and Central Asia,2013.0,41.0,0.787
+Kuwait,Middle East and North Africa,2013.0,43.0,0.787
+Tunisia,Middle East and North Africa,2013.0,41.0,0.722
+Turkey,Europe and Central Asia,2013.0,50.0,0.759
+Belarus,Europe and Central Asia,2013.0,29.0,0.796
+Brazil,Americas,2013.0,42.0,0.747
+China,Asia Pacific,2013.0,40.0,0.723
+India,Asia Pacific,2013.0,36.0,0.607
+Albania,Europe and Central Asia,2013.0,31.0,0.761
+Bosnia and Herzegovina,Europe and Central Asia,2013.0,42.0,0.742
+Jamaica,Americas,2013.0,38.0,0.727
+Lesotho,Sub Saharan Africa,2013.0,49.0,0.491
+Mongolia,Asia Pacific,2013.0,38.0,0.729
+Panama,Americas,2013.0,35.0,0.78
+Zambia,Sub Saharan Africa,2013.0,38.0,0.57
+Colombia,Americas,2013.0,36.0,0.72
+Indonesia,Asia Pacific,2013.0,32.0,0.682
+Liberia,Sub Saharan Africa,2013.0,38.0,0.426
+Morocco,Middle East and North Africa,2013.0,37.0,0.64
+The FYR of Macedonia,Europe and Central Asia,2013.0,44.0,
+Argentina,Americas,2013.0,34.0,0.825
+Benin,Sub Saharan Africa,2013.0,36.0,0.475
+El Salvador,Americas,2013.0,38.0,0.676
+Kosovo,Europe and Central Asia,2013.0,33.0,
+Maldives,Asia Pacific,2013.0,,0.693
+Sri Lanka,Asia Pacific,2013.0,37.0,0.76
+Gabon,Sub Saharan Africa,2013.0,34.0,0.687
+Niger,Sub Saharan Africa,2013.0,34.0,0.345
+Peru,Americas,2013.0,38.0,0.735
+Philippines,Asia Pacific,2013.0,36.0,0.676
+Thailand,Asia Pacific,2013.0,35.0,0.737
+Timor-Leste,Asia Pacific,2013.0,30.0,0.612
+Trinidad and Tobago,Americas,2013.0,38.0,0.778
+Algeria,Middle East and North Africa,2013.0,36.0,0.741
+Côte d´Ivoire,Sub Saharan Africa,2013.0,27.0,
+Egypt,Middle East and North Africa,2013.0,32.0,0.686
+Ethiopia,Sub Saharan Africa,2013.0,33.0,0.435
+Guyana,Americas,2013.0,27.0,0.636
+Armenia,Europe and Central Asia,2013.0,36.0,0.739
+Bolivia,Americas,2013.0,34.0,
+Vietnam,Asia Pacific,2013.0,31.0,
+Mali,Sub Saharan Africa,2013.0,28.0,0.43
+Pakistan,Asia Pacific,2013.0,28.0,0.542
+Tanzania,Sub Saharan Africa,2013.0,33.0,
+Togo,Sub Saharan Africa,2013.0,29.0,0.475
+Dominican Republic,Americas,2013.0,29.0,0.712
+Ecuador,Americas,2013.0,35.0,0.737
+Malawi,Sub Saharan Africa,2013.0,37.0,0.466
+Azerbaijan,Europe and Central Asia,2013.0,28.0,0.752
+Djibouti,Sub Saharan Africa,2013.0,36.0,0.467
+Honduras,Americas,2013.0,26.0,0.618
+Laos,Asia Pacific,2013.0,26.0,
+Mexico,Americas,2013.0,34.0,0.754
+Moldova,Europe and Central Asia,2013.0,35.0,
+Paraguay,Americas,2013.0,24.0,0.688
+Sierra Leone,Sub Saharan Africa,2013.0,30.0,0.426
+Iran,Middle East and North Africa,2013.0,25.0,
+Kazakhstan,Europe and Central Asia,2013.0,26.0,0.789
+Nepal,Asia Pacific,2013.0,31.0,0.551
+Russia,Europe and Central Asia,2013.0,28.0,
+Ukraine,Europe and Central Asia,2013.0,25.0,0.746
+Guatemala,Americas,2013.0,29.0,0.614
+Kyrgyzstan,Europe and Central Asia,2013.0,24.0,0.656
+Lebanon,Middle East and North Africa,2013.0,28.0,0.763
+Myanmar,Asia Pacific,2013.0,21.0,0.547
+Nigeria,Sub Saharan Africa,2013.0,25.0,0.521
+Papua New Guinea,Asia Pacific,2013.0,25.0,0.511
+Guinea,Sub Saharan Africa,2013.0,24.0,0.412
+Mauritania,Middle East and North Africa,2013.0,30.0,0.509
+Mozambique,Sub Saharan Africa,2013.0,30.0,0.409
+Bangladesh,Asia Pacific,2013.0,27.0,0.57
+Cameroon,Sub Saharan Africa,2013.0,25.0,0.507
+Gambia,Sub Saharan Africa,2013.0,28.0,0.449
+Kenya,Sub Saharan Africa,2013.0,27.0,0.546
+Madagascar,Sub Saharan Africa,2013.0,28.0,0.509
+Nicaragua,Americas,2013.0,28.0,0.636
+Tajikistan,Europe and Central Asia,2013.0,22.0,0.622
+Uganda,Sub Saharan Africa,2013.0,26.0,0.483
+Comoros,Sub Saharan Africa,2013.0,28.0,0.497
+Turkmenistan,Europe and Central Asia,2013.0,17.0,0.683
+Zimbabwe,Sub Saharan Africa,2013.0,21.0,0.498
+Cambodia,Asia Pacific,2013.0,20.0,0.553
+Democratic Republic of Congo,Sub Saharan Africa,2013.0,22.0,
+Uzbekistan,Europe and Central Asia,2013.0,17.0,0.69
+Burundi,Sub Saharan Africa,2013.0,21.0,0.404
+Central African Republic,Sub Saharan Africa,2013.0,25.0,0.345
+Chad,Sub Saharan Africa,2013.0,19.0,0.39
+Haiti,Americas,2013.0,19.0,0.487
+Republic of Congo,Sub Saharan Africa,2013.0,22.0,
+Angola,Sub Saharan Africa,2013.0,23.0,0.527
+Eritrea,Sub Saharan Africa,2013.0,20.0,0.416
+Iraq,Middle East and North Africa,2013.0,16.0,0.658
+Venezuela,Americas,2013.0,20.0,
+Guinea-Bissau,Sub Saharan Africa,2013.0,19.0,0.419
+Afghanistan,Asia Pacific,2013.0,8.0,0.476
+Libya,Middle East and North Africa,2013.0,15.0,0.73
+Sudan,Middle East and North Africa,2013.0,11.0,0.485
+Yemen,Middle East and North Africa,2013.0,18.0,0.5
+Syria,Middle East and North Africa,2013.0,17.0,
+Korea (North),Asia Pacific,2013.0,8.0,
+South Sudan,Sub Saharan Africa,2013.0,14.0,0.421
+Somalia,Sub Saharan Africa,2013.0,8.0,
+Denmark,Europe and Central Asia,2012.0,90.0,0.924
+New Zealand,Asia Pacific,2012.0,90.0,0.908
+Finland,Europe and Central Asia,2012.0,90.0,0.887
+Sweden,Europe and Central Asia,2012.0,88.0,0.904
+Switzerland,Europe and Central Asia,2012.0,86.0,0.934
+Norway,Europe and Central Asia,2012.0,85.0,0.942
+Singapore,Asia Pacific,2012.0,87.0,0.92
+Netherlands,Europe and Central Asia,2012.0,84.0,0.922
+Canada,Americas,2012.0,84.0,0.909
+Germany,Europe and Central Asia,2012.0,79.0,0.919
+Luxembourg,Europe and Central Asia,2012.0,80.0,0.892
+United Kingdom,Europe and Central Asia,2012.0,74.0,0.899
+Australia,Asia Pacific,2012.0,85.0,0.933
+Iceland,Europe and Central Asia,2012.0,82.0,0.907
+Belgium,Europe and Central Asia,2012.0,75.0,0.889
+Hong Kong,Asia Pacific,2012.0,77.0,
+Austria,Europe and Central Asia,2012.0,69.0,0.887
+United States,Americas,2012.0,73.0,0.915
+Ireland,Europe and Central Asia,2012.0,69.0,0.902
+Japan,Asia Pacific,2012.0,74.0,0.894
+Uruguay,Americas,2012.0,72.0,0.788
+Estonia,Europe and Central Asia,2012.0,64.0,0.856
+France,Europe and Central Asia,2012.0,71.0,0.887
+Bahamas,Americas,2012.0,71.0,0.79
+Chile,Americas,2012.0,72.0,0.831
+United Arab Emirates,Middle East and North Africa,2012.0,68.0,0.829
+Bhutan,Asia Pacific,2012.0,63.0,0.589
+Israel,Middle East and North Africa,2012.0,60.0,0.891
+Poland,Europe and Central Asia,2012.0,58.0,0.838
+Portugal,Europe and Central Asia,2012.0,63.0,0.827
+Barbados,Americas,2012.0,76.0,0.792
+Qatar,Middle East and North Africa,2012.0,68.0,0.843
+Slovenia,Europe and Central Asia,2012.0,61.0,0.878
+Taiwan,Asia Pacific,2012.0,61.0,
+Botswana,Sub Saharan Africa,2012.0,65.0,0.693
+Saint Lucia,Americas,2012.0,71.0,0.734
+Saint Vincent and the Grenadines,Americas,2012.0,62.0,0.717
+Cape Verde,Sub Saharan Africa,2012.0,60.0,
+Dominica,Americas,2012.0,58.0,0.721
+Lithuania,Europe and Central Asia,2012.0,54.0,0.834
+Brunei,Asia Pacific,2012.0,55.0,
+Costa Rica,Americas,2012.0,54.0,0.762
+Spain,Europe and Central Asia,2012.0,65.0,0.874
+Georgia,Europe and Central Asia,2012.0,52.0,0.755
+Latvia,Europe and Central Asia,2012.0,49.0,0.814
+Grenada,Americas,2012.0,,0.746
+Cyprus,Europe and Central Asia,2012.0,66.0,0.85
+Czech Republic,Europe and Central Asia,2012.0,49.0,0.865
+Malta,Europe and Central Asia,2012.0,57.0,0.828
+Mauritius,Sub Saharan Africa,2012.0,57.0,0.765
+Rwanda,Sub Saharan Africa,2012.0,53.0,0.485
+Korea (South),Asia Pacific,2012.0,56.0,
+Namibia,Sub Saharan Africa,2012.0,48.0,0.625
+Slovakia,Europe and Central Asia,2012.0,46.0,0.838
+Croatia,Europe and Central Asia,2012.0,46.0,0.817
+Malaysia,Asia Pacific,2012.0,49.0,0.779
+Hungary,Europe and Central Asia,2012.0,55.0,0.824
+Jordan,Middle East and North Africa,2012.0,48.0,0.737
+Romania,Europe and Central Asia,2012.0,44.0,0.794
+Cuba,Americas,2012.0,48.0,0.773
+Italy,Europe and Central Asia,2012.0,42.0,0.876
+Sao Tome and Principe,Sub Saharan Africa,2012.0,42.0,0.559
+Saudi Arabia,Middle East and North Africa,2012.0,44.0,0.83
+Montenegro,Europe and Central Asia,2012.0,41.0,0.799
+Oman,Middle East and North Africa,2012.0,47.0,0.796
+Senegal,Sub Saharan Africa,2012.0,36.0,0.474
+South Africa,Sub Saharan Africa,2012.0,43.0,0.652
+Suriname,Americas,2012.0,37.0,0.719
+Greece,Europe and Central Asia,2012.0,36.0,0.86
+Bahrain,Middle East and North Africa,2012.0,51.0,0.815
+Ghana,Sub Saharan Africa,2012.0,45.0,0.57
+Burkina Faso,Sub Saharan Africa,2012.0,38.0,0.392
+Serbia,Europe and Central Asia,2012.0,39.0,0.766
+Solomon Islands,Asia Pacific,2012.0,,0.509
+Bulgaria,Europe and Central Asia,2012.0,41.0,0.781
+Kuwait,Middle East and North Africa,2012.0,44.0,0.796
+Tunisia,Middle East and North Africa,2012.0,41.0,0.72
+Turkey,Europe and Central Asia,2012.0,49.0,0.754
+Belarus,Europe and Central Asia,2012.0,31.0,0.796
+Brazil,Americas,2012.0,43.0,0.734
+China,Asia Pacific,2012.0,39.0,0.713
+India,Asia Pacific,2012.0,36.0,0.599
+Albania,Europe and Central Asia,2012.0,33.0,0.759
+Bosnia and Herzegovina,Europe and Central Asia,2012.0,42.0,0.735
+Jamaica,Americas,2012.0,38.0,0.727
+Lesotho,Sub Saharan Africa,2012.0,45.0,0.484
+Mongolia,Asia Pacific,2012.0,36.0,0.72
+Panama,Americas,2012.0,38.0,0.773
+Zambia,Sub Saharan Africa,2012.0,37.0,0.565
+Colombia,Americas,2012.0,36.0,0.712
+Indonesia,Asia Pacific,2012.0,32.0,0.677
+Liberia,Sub Saharan Africa,2012.0,41.0,0.419
+Morocco,Middle East and North Africa,2012.0,37.0,0.634
+The FYR of Macedonia,Europe and Central Asia,2012.0,43.0,
+Argentina,Americas,2012.0,35.0,0.823
+Benin,Sub Saharan Africa,2012.0,36.0,0.466
+El Salvador,Americas,2012.0,38.0,0.675
+Kosovo,Europe and Central Asia,2012.0,34.0,
+Maldives,Asia Pacific,2012.0,,0.683
+Sri Lanka,Asia Pacific,2012.0,40.0,0.757
+Gabon,Sub Saharan Africa,2012.0,35.0,0.678
+Niger,Sub Saharan Africa,2012.0,33.0,0.341
+Peru,Americas,2012.0,38.0,0.731
+Philippines,Asia Pacific,2012.0,34.0,0.671
+Thailand,Asia Pacific,2012.0,37.0,0.733
+Timor-Leste,Asia Pacific,2012.0,33.0,0.62
+Trinidad and Tobago,Americas,2012.0,39.0,0.773
+Algeria,Middle East and North Africa,2012.0,34.0,0.737
+Côte d´Ivoire,Sub Saharan Africa,2012.0,29.0,
+Egypt,Middle East and North Africa,2012.0,32.0,0.681
+Ethiopia,Sub Saharan Africa,2012.0,33.0,0.427
+Guyana,Americas,2012.0,28.0,0.633
+Armenia,Europe and Central Asia,2012.0,34.0,0.736
+Bolivia,Americas,2012.0,34.0,
+Vietnam,Asia Pacific,2012.0,31.0,
+Mali,Sub Saharan Africa,2012.0,34.0,0.421
+Pakistan,Asia Pacific,2012.0,27.0,0.538
+Tanzania,Sub Saharan Africa,2012.0,35.0,
+Togo,Sub Saharan Africa,2012.0,30.0,0.47
+Dominican Republic,Americas,2012.0,32.0,0.709
+Ecuador,Americas,2012.0,32.0,0.725
+Malawi,Sub Saharan Africa,2012.0,37.0,0.459
+Azerbaijan,Europe and Central Asia,2012.0,27.0,0.745
+Djibouti,Sub Saharan Africa,2012.0,36.0,0.464
+Honduras,Americas,2012.0,28.0,0.614
+Laos,Asia Pacific,2012.0,21.0,
+Mexico,Americas,2012.0,34.0,0.753
+Moldova,Europe and Central Asia,2012.0,36.0,
+Paraguay,Americas,2012.0,25.0,0.679
+Sierra Leone,Sub Saharan Africa,2012.0,31.0,0.413
+Iran,Middle East and North Africa,2012.0,28.0,
+Kazakhstan,Europe and Central Asia,2012.0,28.0,0.782
+Nepal,Asia Pacific,2012.0,27.0,0.545
+Russia,Europe and Central Asia,2012.0,28.0,
+Ukraine,Europe and Central Asia,2012.0,26.0,0.744
+Guatemala,Americas,2012.0,33.0,0.611
+Kyrgyzstan,Europe and Central Asia,2012.0,24.0,0.647
+Lebanon,Middle East and North Africa,2012.0,30.0,0.766
+Myanmar,Asia Pacific,2012.0,15.0,0.54
+Nigeria,Sub Saharan Africa,2012.0,27.0,0.514
+Papua New Guinea,Asia Pacific,2012.0,25.0,0.506
+Guinea,Sub Saharan Africa,2012.0,24.0,0.406
+Mauritania,Middle East and North Africa,2012.0,31.0,0.501
+Mozambique,Sub Saharan Africa,2012.0,31.0,0.405
+Bangladesh,Asia Pacific,2012.0,26.0,0.565
+Cameroon,Sub Saharan Africa,2012.0,26.0,0.501
+Gambia,Sub Saharan Africa,2012.0,34.0,0.445
+Kenya,Sub Saharan Africa,2012.0,27.0,0.541
+Madagascar,Sub Saharan Africa,2012.0,32.0,0.508
+Nicaragua,Americas,2012.0,29.0,0.63
+Tajikistan,Europe and Central Asia,2012.0,22.0,0.617
+Uganda,Sub Saharan Africa,2012.0,29.0,0.478
+Comoros,Sub Saharan Africa,2012.0,28.0,0.49
+Turkmenistan,Europe and Central Asia,2012.0,17.0,0.678
+Zimbabwe,Sub Saharan Africa,2012.0,20.0,0.488
+Cambodia,Asia Pacific,2012.0,22.0,0.546
+Democratic Republic of Congo,Sub Saharan Africa,2012.0,21.0,
+Uzbekistan,Europe and Central Asia,2012.0,17.0,0.681
+Burundi,Sub Saharan Africa,2012.0,19.0,0.398
+Central African Republic,Sub Saharan Africa,2012.0,26.0,0.37
+Chad,Sub Saharan Africa,2012.0,19.0,0.387
+Haiti,Americas,2012.0,19.0,0.483
+Republic of Congo,Sub Saharan Africa,2012.0,26.0,
+Angola,Sub Saharan Africa,2012.0,22.0,0.523
+Eritrea,Sub Saharan Africa,2012.0,25.0,0.414
+Iraq,Middle East and North Africa,2012.0,18.0,0.659
+Venezuela,Americas,2012.0,19.0,
+Guinea-Bissau,Sub Saharan Africa,2012.0,25.0,0.415
+Afghanistan,Asia Pacific,2012.0,8.0,0.47
+Libya,Middle East and North Africa,2012.0,21.0,0.735
+Sudan,Middle East and North Africa,2012.0,13.0,0.478
+Yemen,Middle East and North Africa,2012.0,23.0,0.498
+Syria,Middle East and North Africa,2012.0,26.0,
+Korea (North),Asia Pacific,2012.0,8.0,
+South Sudan,Sub Saharan Africa,2012.0,,0.417
+Somalia,Sub Saharan Africa,2012.0,8.0,
