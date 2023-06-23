@@ -1,40 +1,35 @@
 import pyreadr
-import glob, os
+from pathlib import Path
 
 
 errors = []
+need_zip = [
+    "ncdc_normals.rda",
+]
 
-for fn in glob.glob("../data/rda_files/*.rda"):
+rda_dir = Path("../data/rda_files")
+csv_dir = Path("../data/csv_files")
+errors_file = Path("..") / "data" / "errors.txt"
+
+for fn in rda_dir.glob("*.rda"):
+    base_name = fn.name
     try:
-        data = pyreadr.read_r(fn, timezone="PST")
+        data = pyreadr.read_r(str(fn), timezone="PST")
     except Exception as e:
-        errors.append(os.path.basename(fn))
+        errors.append(base_name)
         continue
     if not data:
-        errors.append(os.path.basename(fn))
+        errors.append(base_name)
         continue
     for df in data.values():
-        if os.path.basename(fn) == "ncdc_normals.rda":
-            df.to_csv(
-                os.path.join(
-                    "..",
-                    "data",
-                    "csv_files",
-                    f"{os.path.splitext(os.path.basename(fn))[0]}.csv.zip",
-                ),
-                index=False,
-                compression="zip",
-            )
+        if base_name in need_zip:
+            csv_file = csv_dir / f"{base_name.removesuffix('.rda')}.csv.zip"
+            zip_kw = dict(compression="zip")
         else:
-            df.to_csv(
-                os.path.join(
-                    "..",
-                    "data",
-                    "csv_files",
-                    f"{os.path.splitext(os.path.basename(fn))[0]}.csv",
-                ),
-                index=False,
-            )
+            csv_file = csv_dir / f"{base_name.removesuffix('.rda')}.csv"
+            zip_kw = dict()
+        df.to_csv(csv_file, index=False, **zip_kw)
+
 if len(errors) > 0:
-    with open(os.path.join("..", "data", "errors.txt"), "w") as f:
+    with open(errors_file, "w") as f:
         f.writelines([f"{e}\n" for e in errors])
