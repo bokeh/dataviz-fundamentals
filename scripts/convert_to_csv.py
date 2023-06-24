@@ -4,9 +4,7 @@ import sys
 
 
 ERRORS = []
-NEEDS_ZIP = (
-    "ncdc_normals.rda",
-)
+NEEDS_ZIP = ("ncdc_normals.rda",)
 
 rda_dir = Path("../data/rda_files")
 csv_dir = Path("../data/csv_files")
@@ -18,11 +16,9 @@ for fn in rda_dir.glob("*.rda"):
         data = pyreadr.read_r(str(fn))
     except Exception as e:
         print(f"Exception error in '{base_name}': {e}", file=sys.stderr)
-        # ERRORS.append(base_name)
         continue
     if not data:
         print(f"Empty data in '{base_name}'", file=sys.stderr)
-        # ERRORS.append(base_name)
         continue
     for df in data.values():
         if base_name in NEEDS_ZIP:
@@ -32,7 +28,3 @@ for fn in rda_dir.glob("*.rda"):
             csv_file = csv_dir / f"{base_name.removesuffix('.rda')}.csv"
             zip_kw = dict()
         df.to_csv(csv_file, index=False, **zip_kw)
-
-# if len(ERRORS) > 0:
-    # with open(errors_file, "w") as f:
-        # f.writelines([f"{e}\n" for e in ERRORS])
