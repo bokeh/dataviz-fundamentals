@@ -3,12 +3,10 @@ from pathlib import Path
 import sys
 
 
-ERRORS = []
 NEEDS_ZIP = ("ncdc_normals.rda",)
 
 rda_dir = Path("../data/rda_files")
 csv_dir = Path("../data/csv_files")
-errors_file = Path("..") / "data" / "errors.txt"
 
 for fn in rda_dir.glob("*.rda"):
     base_name = fn.name
