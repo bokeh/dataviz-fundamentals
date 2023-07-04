@@ -15,6 +15,7 @@ The full rendered pages of this repository can be found [here](https://bokeh.git
 2. Visualizing amounts
 	- Bar plots: Representing amounts using vertical, horizontal, grouped, and stacked bars
 
+    - Dot plots and heatmaps: using dots and colors to represent values.
 
 ## Local setup
 
