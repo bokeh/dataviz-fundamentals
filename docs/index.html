@@ -3,54 +3,40 @@
 
 <head>
     <title>Fundamentals of Data Visualization using Bokeh</title>
-    <style>
-        h1 {
-            text-align: center;
-        }
-
-        h2 {
-            text-align: center;
-            color: gray;
-        }
-
-        h3 {
-            margin-top: 20px;
-        }
-
-        ul {
-            list-style-type: none;
-            margin-left: 20px;
-        }
-
-        li {
-            margin-bottom: 10px;
-        }
-
-        .logo {
-            display: block;
-            margin: 0 auto;
-            max-width: 200px;
-        }
-    </style>
+    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
-    <img src="../images/bokeh.png" alt="Bokeh logo" class="logo">
-    <h1>Fundamentals of Data Visualization using Bokeh</h1>
+    <img src="bokeh.png" alt="Bokeh logo" class="logo">
+    <h1>Fundamentals of Data Visualization, using Bokeh</h1>
     <h2><a href="https://clauswilke.com/dataviz/">Book</a> by Claus O. Wilke</h2>
     <hr>
-    <h3>Table of Contents</h3>
-    <ul>
-        <li><a href="Introduction.html"><span class="chapter-title"></span><strong>1. Introduction</strong></a></a></li>
-        <li>
-            <span class="chapter-title"><strong>2. Visualizing amounts</strong></span>
-            <ul>
-                <li class="sub-header"><a href="01-visualize-amounts-bar-plots.html">Bar plots</a></li>
-                <li class="sub-header"><a href="02-visualize-amounts-dot-plots.html">Dot plots and heatmaps</a></li>
-
+    <div class="toc-wrapper">
+        <div class="toc-header">
+            <h3 class="toc-heading">Table of Contents</h3>
+        </div>
+        <div class="toc-list-wrapper">
+            <ul class="toc-list">
+                <li class="toc-list-item-content">
+                    <a href="Introduction.html">Introduction</a>
+                </li>
+                <li class="toc-list-item-content">
+                    <span class="toc-list-item">Visualizing amounts</span>
+                    <ul>
+                        <li><a href="01-visualize-amounts-bar-plots.html">Bar plots</a></li>
+                        <li><a href="02-visualize-amounts-dot-plots.html">Dot plots and heatmaps</a></li>
+                    </ul>
+                </li>
+                <li class="toc-list-item-content">
+                    <span class="toc-list-item">Visualizing distributions</span>
+                    <ul>
+                        <li><a href="03-visualize-single-distribution-histograms.html">Single distribution histogram and
+                                density plots</a></li>
+                    </ul>
+                </li>
             </ul>
-        </li>
-    </ul>
+        </div>
+    </div>
 </body>
 
 </html>
