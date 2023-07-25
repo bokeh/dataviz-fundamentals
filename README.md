@@ -17,6 +17,9 @@ The full rendered pages of this repository can be found [here](https://bokeh.git
 
     - Dot plots and heatmaps: using dots and colors to represent values.
 
+3. Visualizing distirbutions
+    - Single distribution histogram and density plots
+
 ## Local setup
 
 To run these notebooks locally, follow these steps:
