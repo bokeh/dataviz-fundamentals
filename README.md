@@ -13,12 +13,14 @@ The full rendered pages of this repository can be found [here](https://bokeh.git
 1. Introduction: An overview of the narrative and type of plots to expect.
 
 2. Visualizing amounts
-	- Bar plots: Representing amounts using vertical, horizontal, grouped, and stacked bars
+	- Bar plots: Representing amounts using vertical, horizontal, grouped, and stacked bars.
 
-    - Dot plots and heatmaps: using dots and colors to represent values.
+    - Dot plots and heatmaps: Using dots and colors to represent values.
 
 3. Visualizing distributions
-    - Single distribution histogram and density plots
+    - Single distribution histogram and density plots: Showing the distribution of a single variable using histograms or density plots.
+
+    - Multiple distribution histogram and density plot: Comparing multiple distributions using histograms and density plots.
 
 ## Local setup
 
