@@ -22,6 +22,8 @@ The full rendered pages of this repository can be found [here](https://bokeh.git
 
     - Multiple distribution histogram and density plot: Comparing multiple distributions using histograms and density plots.
 
+    - Visualizing many distributions at once using boxplots, sina plots and ridgeline plots: Illustrating the distribution of data using boxes and whiskers and the density of multiple distributions along a common axis using ridgeline plots.
+
 ## Local setup
 
 To run these notebooks locally, follow these steps:
