@@ -24,6 +24,9 @@ The full rendered pages of this repository can be found [here](https://bokeh.git
 
     - Visualizing many distributions at once using boxplots, sina plots and ridgeline plots: Illustrating the distribution of data using boxes and whiskers and the density of multiple distributions along a common axis using ridgeline plots.
 
+4. Visualizing associations
+    - Scatter plots and correlograms: Illustrating the relationship between two variables using scatter plots, correlograms and paired data points.
+
 ## Local setup
 
 To run these notebooks locally, follow these steps:
