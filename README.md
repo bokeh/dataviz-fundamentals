@@ -60,6 +60,12 @@ Contributions are welcome! If you would like to contribute to this project, plea
 - Fork the repository and create your branch.
 - Make your changes and ensure the code follows the project's coding style.
 - Test your changes thoroughly.
+- Run:
+
+        pre-commit install
+
+  to install the pre-commit hooks locally.
+- Commit your changes.
 - Submit a pull request with a clear description of your changes.
 
 ## License & Code of Conduct
